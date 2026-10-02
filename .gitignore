@@ -1,0 +1,22 @@
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# 编辑器与 IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 编译与构建缓存（预留给后续可能的文档生成器或测试脚本）
+node_modules/
+dist/
+.temp/
+.cache/
+*.log
