@@ -21,6 +21,7 @@
 $$
 (S_t, I_t) \xrightarrow{\quad f \quad} (S_{t+1}, O_t)
 $$
+
 系统在当前全局状态 $S_t$ 下接收外部输入 $I_t$，经由预设的控制逻辑 $f$，确定性地迁移至新状态 $S_{t+1}$，并产生外部输出 $O_t$。
 
 **在这套范式中，决定系统如何流转状态的全部转移规则 $f$，在设计期或编译期就必须被显式锁定。**
@@ -79,17 +80,17 @@ LLM 提供了运行时的理解与决策算力，却无法自发成为一个持�
 
 ### 1.2 孤立推理内核的三重系统断裂
 
-从计算机制来看，大语言模型本质上是一个基于条件概率分布的无状态推理内核。外部信息如何进入、物理动作如何落地、执行反馈如何触发下一轮推理，都受制于单次前向调用的刚性边界。在给定上下文序列 $X$ 的条件下，模型逐步计算后续 Token 的条件概率分布，并通过解码策略生成输出序列：
+在给定上下文序列 $X$ 的条件下，模型逐步计算后续 Token 的条件概率分布，并通过解码策略生成输出序列：
 
 $$
-P_\theta(y\mid X)=\prod_{t=1}^{T}P_\theta(y_t\mid X,y_{<t})
+P_\theta(y \mid X) = \prod_{t=1}^{T} P_\theta(y_t \mid X, y_{< t})
 $$
 
 $$
-y\sim P_\theta(\cdot\mid X)
+y \sim P_\theta(\cdot \mid X)
 $$
 
-> 其中，$X$ 表示本次推理输入的完整上下文，$y_t$ 表示第 $t$ 个输出 Token，$y_{<t}$ 表示此前生成的 Token 序列，$\theta$ 表示模型参数。
+> 其中，$X$ 表示本次推理输入的完整上下文，$y_t$ 表示第 $t$ 个输出 Token，$y_{< t}$ 表示此前生成的 Token 序列，$\theta$ 表示模型参数。
 >
 > 这一计算过程的核心在于：模型能够基于已有上下文推导并生成新的语义序列，但序列生成机制本身并不包含外部环境访问、物理副作用执行或跨请求任务状态管理的能力。
 
@@ -171,14 +172,19 @@ $$
 $$
 
 将两者进行结构比对，单体模型向真实系统的跨越，存在着三个不可或缺的核心缺失项：
+
 $$
 \boxed{\text{感知接入 (Perception)}} \qquad \boxed{\text{动作落地 (Execution)}} \qquad \boxed{\text{反馈闭环 (Feedback Loop)}}
 $$
+
 即：
+
 $$
 \text{Model} \rightarrow \begin{cases} \text{缺感知} \\ \text{缺执行} \\ \text{缺反馈} \end{cases} \rightarrow \text{Context / Execution / Runtime}
 $$
+
 在系统架构层面，这三大缺口精准收敛到了外围系统的核心工程组件中：
+
 
 | **结构性断裂**     | **核心缺口**              | **工程架构承接组件**                                         |
 | ------------------ | ------------------------- | ------------------------------------------------------------ |
@@ -221,6 +227,7 @@ $$
 $$
 \boxed{\text{Intent (动作意图)} \;\longrightarrow\; \text{Validated Action (受控动作)} \;\longrightarrow\; \text{Observed Effect (环境观测)} \;\longrightarrow\; \text{Verified Result (结果真值)}}
 $$
+
 以典型的分布式电商场景——**“取消超时未支付订单并释放预占库存”**为例，我们能够清晰透视这四个阶段背后的工程分界：
 
 #### 1.3.1 意图表示（Intent）：模型“想做什么”
@@ -327,6 +334,7 @@ $$
 2. **任务推进驱动主体**：驱动状态机持续向前步进的动力，是人类用户的逐轮输入，还是系统运行时的自主闭环？
 
 四类典型形态的架构边界与核心工程实现对比如下：
+
 
 | **系统形态**       | **核心描述维度** | **控制流决策权 (Next-Action)**                     | **循环推进主导者** | **核心失效防御机制**                               |
 | :----------------- | :--------------- | :------------------------------------------------- | :----------------- | :------------------------------------------------- |
@@ -472,6 +480,7 @@ $$
 不知道。单次前向推理结束后，模型对物理世界的执行结果一无所知。执行结果必须被重新捕获并转化为新的环境**观测（Observation）**，作为输入实体重新送回系统。
 
 至此，系统形成了最基本的调用反馈闭环：
+
 $$
 \text{Model} \xrightarrow{\text{Action}} \text{Tool} \xrightarrow{\text{Execute}} \text{Environment} \xrightarrow{\text{Observation}} \text{System}
 $$
@@ -495,6 +504,7 @@ $$
 $$
 S_t \xrightarrow{\text{Context Assembly}} C_t \xrightarrow{\text{Model}} A_t \xrightarrow{\text{Tool / Environment}} O_{t+1} \xrightarrow{\text{State Mutation}} S_{t+1}
 $$
+
 **5. 这些步骤不会自发运转，谁负责让这个闭环跑起来？**  
 谁来触发模型调用？谁负责将 Action 派发给具体的 Tool？谁负责捕获 Observation 并写回 State？谁来根据策略生成下一轮 Context？谁来判断任务是否达成并终止流程？谁来处理网络超时与重试？  
 负责实际驱动这一控制闭环运转的底层引擎，就是 **Agent Runtime**。Runtime 的核心职责是**调度与状态推进**。
@@ -512,6 +522,7 @@ $$
 在 3.1 节确立的组件基础上，为了建立直观心智模型，我们可以借用经典计算机体系结构（冯·诺依曼模型）建立功能性映射：
 
 ![计算机体系结构与 Agent 核心功能抽象的功能性映射](./images/ch01/agent-functional-architecture-mapping.svg)
+
 
 | Agent 核心要素  | 经典体系功能类比       | 运行时承担的核心系统职责                       | 关键工程关注点                                        |
 | :-------------- | :--------------------- | :--------------------------------------------- | :---------------------------------------------------- |
@@ -541,7 +552,9 @@ Context 是模型在特定决策时刻实际接收到的上下文输入，它并
 
 因此，上下文工程不仅需要解决信息筛选与 Token 预算问题，还必须明确不同信息来源的信任边界，避免不可信外部内容通过 Prompt Injection 等方式干扰模型决策或诱导越权工具调用。
 
-$$\text{Context}_t = \big[ \text{System Prompt}, \; \text{Tool Schemas}, \; \text{Working Memory}, \; \text{History Trajectory}_{1:t-1} \big]$$
+$$
+\text{Context}_t = \big[ \text{System Prompt}, \; \text{Tool Schemas}, \; \text{Working Memory}, \; \text{History Trajectory}_{1:t-1} \big]
+$$
 
 - **System Prompt**：全局不变的安全边界、角色定位与行为规范。
 - **Tool Schemas**：当前步骤允许调用的工具接口签名及其语义定义。
@@ -613,7 +626,7 @@ Model、Context、Tool 与 Environment 构成了 Agent 系统的静态结构。�
 
 - **确定性门禁拦截**：动作未触达底层物理 I/O 即被 Harness 刚性阻断。安全策略判定 `PERMANENT_BAN` 超出当前 Agent 的自主处置权限，门禁直接拒绝执行，同时在后台生成待人工审批的风控工单（Ticket #88219）
 
-- **拒绝事实回灌（核心节点）****：**系统并没有替模型直接篡改意图，而是把门禁拦截结果作为客观事实回填**：
+- **拒绝事实回灌（核心节点）：系统并没有替模型直接篡改意图，而是把门禁拦截结果作为客观事实回填**：
 
   ```
   {"status": "REJECTED", "code": "PERMISSION_DENIED", "message": "PERMANENT_BAN 超出自主处置权限，工单已流转人工；当前授权仅允许执行 MUTE_24H 临时禁言及撤回近 15 分钟消息"}
