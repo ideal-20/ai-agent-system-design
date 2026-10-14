@@ -18,8 +18,9 @@
 
 从抽象形式化视角审视，经典计算过程可严格抽象为一个确定性状态转移函数：
 
-$$(S_t, I_t) \xrightarrow{\quad f \quad} (S_{t+1}, O_t)$$
-
+$$
+(S_t, I_t) \xrightarrow{\quad f \quad} (S_{t+1}, O_t)
+$$
 系统在当前全局状态 $S_t$ 下接收外部输入 $I_t$，经由预设的控制逻辑 $f$，确定性地迁移至新状态 $S_{t+1}$，并产生外部输出 $O_t$。
 
 **在这套范式中，决定系统如何流转状态的全部转移规则 $f$，在设计期或编译期就必须被显式锁定。**
@@ -78,13 +79,17 @@ LLM 提供了运行时的理解与决策算力，却无法自发成为一个持�
 
 ### 1.2 孤立推理内核的三重系统断裂
 
-从计算机制来看，大语言模型本质上是一个基于条件概率分布的无状态推理内核。外部信息如何进入、物理动作如何落地、执行反馈如何触发下一轮推理，都受制于单次前向调用的刚性边界。在给定上下文序列 \(X\) 的条件下，模型逐步计算后续 Token 的条件概率分布，并通过解码策略生成输出序列：
+从计算机制来看，大语言模型本质上是一个基于条件概率分布的无状态推理内核。外部信息如何进入、物理动作如何落地、执行反馈如何触发下一轮推理，都受制于单次前向调用的刚性边界。在给定上下文序列 $X$ 的条件下，模型逐步计算后续 Token 的条件概率分布，并通过解码策略生成输出序列：
 
-\[ P_\theta(y\mid X)=\prod_{t=1}^{T}P_\theta(y_t\mid X,y_{<t}) \]
+$$
+P_\theta(y\mid X)=\prod_{t=1}^{T}P_\theta(y_t\mid X,y_{<t})
+$$
 
-\[ y\sim P_\theta(\cdot\mid X) \]
+$$
+y\sim P_\theta(\cdot\mid X)
+$$
 
-> 其中，\(X\) 表示本次推理输入的完整上下文，\(y_t\) 表示第 \(t\) 个输出 Token，\(y_{<t}\) 表示此前生成的 Token 序列，\(\theta\) 表示模型参数。
+> 其中，$X$ 表示本次推理输入的完整上下文，$y_t$ 表示第 $t$ 个输出 Token，$y_{<t}$ 表示此前生成的 Token 序列，$\theta$ 表示模型参数。
 >
 > 这一计算过程的核心在于：模型能够基于已有上下文推导并生成新的语义序列，但序列生成机制本身并不包含外部环境访问、物理副作用执行或跨请求任务状态管理的能力。
 
@@ -155,20 +160,24 @@ LLM 提供了运行时的理解与决策算力，却无法自发成为一个持�
 
 单体模型（Model）的能力上限，仅局限于单向的静态映射：
 
-$$\text{Context} \xrightarrow{\quad \text{Reasoning} \quad} \text{Action Intent}$$
+$$
+\text{Context} \xrightarrow{\quad \text{Reasoning} \quad} \text{Action Intent}
+$$
 
 而对于需要持续与外部环境交互的自主业务任务，其执行过程可以抽象为一个不断获取反馈并调整动作的离散控制闭环：
 
-$$\text{Observe} \xrightarrow{\quad \text{Reason} \quad} \text{Act} \xrightarrow{\quad \text{Observe} \quad} \text{Reason} \xrightarrow{\quad \text{Act} \quad} \cdots$$
+$$
+\text{Observe} \xrightarrow{\quad \text{Reason} \quad} \text{Act} \xrightarrow{\quad \text{Observe} \quad} \text{Reason} \xrightarrow{\quad \text{Act} \quad} \cdots
+$$
 
 将两者进行结构比对，单体模型向真实系统的跨越，存在着三个不可或缺的核心缺失项：
-
-$$\boxed{\text{感知接入 (Perception)}} \qquad \boxed{\text{动作落地 (Execution)}} \qquad \boxed{\text{反馈闭环 (Feedback Loop)}}$$
-
+$$
+\boxed{\text{感知接入 (Perception)}} \qquad \boxed{\text{动作落地 (Execution)}} \qquad \boxed{\text{反馈闭环 (Feedback Loop)}}
+$$
 即：
-
-\[ \text{Model} \rightarrow \begin{cases} 缺感知\\ 缺执行\\ 缺反馈 \end{cases} \rightarrow \text{Context / Execution / Runtime} \]
-
+$$
+\text{Model} \rightarrow \begin{cases} \text{缺感知} \\ \text{缺执行} \\ \text{缺反馈} \end{cases} \rightarrow \text{Context / Execution / Runtime}
+$$
 在系统架构层面，这三大缺口精准收敛到了外围系统的核心工程组件中：
 
 | **结构性断裂**     | **核心缺口**              | **工程架构承接组件**                                         |
@@ -195,7 +204,9 @@ $$\boxed{\text{感知接入 (Perception)}} \qquad \boxed{\text{动作落地 (Exe
 
 这三者之间**既不存在天然的因果必然性，也不存在原子事务保障**。许多初学者常犯的架构错觉，是将 Tool Calling 误当成了 Agent 的物理落地。但工程真相是：
 
-$$\boxed{\text{Execution} \neq \text{Tool Call}}$$
+$$
+\boxed{\text{Execution} \neq \text{Tool Call}}
+$$
 
 > **Tool Calling 仅仅是模型在文本生成空间内对动作意图的“序列化语法表达”，它从未解决真实物理系统如何抵御并发冲突、如何验证业务状态以及如何保障最终一致性的核心交付难题。**
 
@@ -207,8 +218,9 @@ $$\boxed{\text{Execution} \neq \text{Tool Call}}$$
 
 为了跨越执行鸿沟，生产级 Agent 绝不能充当盲目的 API 透明转发器，必须在架构层面构筑一条由四个严密阶段构成的控制链条：
 
-$$\boxed{\text{Intent (动作意图)} \;\longrightarrow\; \text{Validated Action (受控动作)} \;\longrightarrow\; \text{Observed Effect (环境观测)} \;\longrightarrow\; \text{Verified Result (结果真值)}}$$
-
+$$
+\boxed{\text{Intent (动作意图)} \;\longrightarrow\; \text{Validated Action (受控动作)} \;\longrightarrow\; \text{Observed Effect (环境观测)} \;\longrightarrow\; \text{Verified Result (结果真值)}}
+$$
 以典型的分布式电商场景——**“取消超时未支付订单并释放预占库存”**为例，我们能够清晰透视这四个阶段背后的工程分界：
 
 #### 1.3.1 意图表示（Intent）：模型“想做什么”
@@ -263,7 +275,8 @@ $$\boxed{\text{Intent (动作意图)} \;\longrightarrow\; \text{Validated Action
 由此，Agent 的反馈闭环才真正从“工具调用完成”延伸到了“业务结果可验证”，实现从概率决策到受控业务交付的完整跨越。
 
 > **关键收获**：
-> 到这里，我们彻底拆解了第一个核心命题：**为什么大模型本身无法直接成为业务系统**。我们看清了自回归前向计算与物理生产之间的执行鸿沟，并确立了全书的第一条铁律——**$\text{Execution} \neq \text{Tool Call}$**。工具调用仅仅是动作意图的语法序列化，跨服务的最终一致性必须由外围确定性体系来闭环。
+>
+> 到这里，我们彻底拆解了第一个核心命题：**为什么大模型本身无法直接成为业务系统**。我们看清了自回归前向计算与物理生产之间的执行鸿沟，并确立了全书的第一条铁律 —— **$\text{Execution} \neq \text{Tool Call}$**。工具调用仅仅是动作意图的语法序列化，跨服务的最终一致性必须由外围确定性体系来闭环。
 
 然而，这一论断随即引出了一个更深层次的架构疑问：**既然传统工作流（Workflow）同样能够调用外部 API、捕获异常甚至执行 Saga 补偿事务，为什么我们不直接沿用确定性的程序编排，反而需要 Agent？究竟是什么特征从底层将 Agent 与经典系统彻底区分开来？**
 
@@ -382,7 +395,9 @@ Copilot 与 Agent 的核心差异不在于“是否有物理的人参与”，�
 
 前者决定系统下一步尝试执行什么动作，可以在受限范围内交由模型动态选择；后者决定该动作是否允许对真实环境产生副作用，必须由独立于模型推理结果的确定性授权机制进行裁决。
 
-$$\boxed{\mathbf{Action\;Selection \neq Execution\;Authorization}}$$
+$$
+\boxed{\mathbf{Action\;Selection \neq Execution\;Authorization}}
+$$
 
 > **动作意图的选择权（Action Selection），绝不天然等同于物理副作用的执行授权（Execution Authorization）。**
 > 前者决定系统“尝试去探索什么”，在受控动作空间内可交由概率模型自主推导；后者决定该动作“是否被系统允许落地”，必须由独立于模型推理结果的确定性规则、IAM 权限及风险策略实施刚性裁决。成熟的 Agent 系统绝非无节制地向模型让渡执行权，而是在赋予其探索弹性的同时，通过外围门禁将真实环境的控制权坚决收拢。
@@ -425,7 +440,8 @@ $$\boxed{\mathbf{Action\;Selection \neq Execution\;Authorization}}$$
 Agent 的工程本质，是对运行时控制流决策权的动态分配：在开放的问题空间中，将部分 Next-Action 决策权让渡给模型以获取动态适应能力；而当动作超出预先授予的自主执行权限边界时，系统则通过独立的确定性策略、权限或审批机制将控制权坚决收回。架构设计的核心职责，正是精确划定这一让渡与收拢的边界。
 
 > **关键收获**：
-> 到这里，我们解决了第二个核心命题：**究竟什么才是真正的 Agent**。我们穿透了界面和商业名词的包装，确立了系统的控制权分水岭：**区分传统编排与 Agent 的唯一标尺，是运行时 Next-Action 的选择权由谁主导**；同时确立了系统安全的核心基石——**$\text{Action Selection} \neq \text{Execution Authorization}$**。
+>
+> 到这里，我们解决了第二个核心命题：**究竟什么才是真正的 Agent**。我们穿透了界面和商业名词的包装，确立了系统的控制权分水岭：**区分传统编排与 Agent 的唯一标尺，是运行时 Next-Action 的选择权由谁主导**；同时确立了系统安全的核心基石 —— **$\text{Action Selection} \neq \text{Execution Authorization}$**。
 
 然而，明确了权力分配模型，只是完成了控制论层面的逻辑推导。**如果要把这样一套控制逻辑在物理机上真正跑起来，系统底层究竟需要哪些不可或缺的软件实体？** 既然不能依赖黑盒框架堆砌新名词，我们不妨抛弃所有现成的封装，从单次模型推理的最底层物理事实出发，用连环的工程矛盾自然推导出支撑 Agent 运转的最小完备架构。
 
@@ -439,7 +455,9 @@ Agent 的工程本质，是对运行时控制流决策权的动态分配：在�
 
 仅观察大语言模型自身的一次纯粹推理过程：
 
-\[C_t \xrightarrow{\quad \text{Model} \quad} R_t\]
+$$
+C_t \xrightarrow{\quad \text{Model} \quad} R_t
+$$
 
 > 这里讨论模型自身的计算边界：$C_t$ 代表输入上下文的 Token 序列，$R_t$ 代表本次推理产出的响应内容。$R_t$ 可以是一段普通文本，也可以是一个要求调用外部接口的结构化动作请求（Action Request）。
 
@@ -454,7 +472,9 @@ Agent 的工程本质，是对运行时控制流决策权的动态分配：在�
 不知道。单次前向推理结束后，模型对物理世界的执行结果一无所知。执行结果必须被重新捕获并转化为新的环境**观测（Observation）**，作为输入实体重新送回系统。
 
 至此，系统形成了最基本的调用反馈闭环：
-$$\text{Model} \xrightarrow{\text{Action}} \text{Tool} \xrightarrow{\text{Execute}} \text{Environment} \xrightarrow{\text{Observation}} \text{System}$$
+$$
+\text{Model} \xrightarrow{\text{Action}} \text{Tool} \xrightarrow{\text{Execute}} \text{Environment} \xrightarrow{\text{Observation}} \text{System}
+$$
 
 **3. 执行到第三步时，系统怎么知道第一步发生过什么？**  
 模型推理本身是无状态的（Stateless），不会跨请求持久维护任务进展。如果系统没有专门的存储机制，模型在后续步骤面对的就只剩孤立的碎片。因此，系统必须维护一个包含当前目标、执行历史、观测缓存与中间变量的载体，即**状态（State）**。对于长生命周期任务，State 还必须支持持久化存储与异常恢复。
@@ -464,13 +484,17 @@ $$\text{Model} \xrightarrow{\text{Action}} \text{Tool} \xrightarrow{\text{Execut
 
 因此，系统在发起下一次模型推理前，必须从当前的 State 中**挑选、压缩并组织**出与本轮决策直接相关的必要信息，并结合系统指令与工具定义完成动态装配。这个在特定时刻实际喂给模型的输入，才是**上下文（Context）**：
 
-$$\mathbf{State \neq Context}$$
+$$
+\mathbf{State \neq Context}
+$$
 
 > **架构定论**：**State 是系统在全局“记住了什么”，而 Context 是模型在这一轮推理中“实际看到了什么”。** Context 是当前任务状态面向单次模型推理的**受限视图（Restricted View）**。
 
 至此，一个完整的单轮控制流在逻辑上得以收敛：
-\[ S_t \xrightarrow{\text{Context Assembly}} C_t \xrightarrow{\text{Model}} A_t \xrightarrow{\text{Tool / Environment}} O_{t+1} \xrightarrow{\text{State Mutation}} S_{t+1} \]
 
+$$
+S_t \xrightarrow{\text{Context Assembly}} C_t \xrightarrow{\text{Model}} A_t \xrightarrow{\text{Tool / Environment}} O_{t+1} \xrightarrow{\text{State Mutation}} S_{t+1}
+$$
 **5. 这些步骤不会自发运转，谁负责让这个闭环跑起来？**  
 谁来触发模型调用？谁负责将 Action 派发给具体的 Tool？谁负责捕获 Observation 并写回 State？谁来根据策略生成下一轮 Context？谁来判断任务是否达成并终止流程？谁来处理网络超时与重试？  
 负责实际驱动这一控制闭环运转的底层引擎，就是 **Agent Runtime**。Runtime 的核心职责是**调度与状态推进**。
@@ -585,6 +609,7 @@ Model、Context、Tool 与 Environment 构成了 Agent 系统的静态结构。�
       "reason": "批量发送兼职引流广告"
     }
   }
+	```
 
 - **确定性门禁拦截**：动作未触达底层物理 I/O 即被 Harness 刚性阻断。安全策略判定 `PERMANENT_BAN` 超出当前 Agent 的自主处置权限，门禁直接拒绝执行，同时在后台生成待人工审批的风控工单（Ticket #88219）
 
@@ -608,7 +633,8 @@ Model、Context、Tool 与 Environment 构成了 Agent 系统的静态结构。�
 这个微观过程清晰揭示了生产级架构的精髓：**模型负责在开放空间中提炼意图并根据反馈动态修正假设；门禁负责在 I/O 边界前拦截越权意图；下游业务服务在事务内保证状态最终一致性。三者相互制衡，概率决策才得以安全运行于确定性系统之中。**
 
 > **关键收获**：
-> 到这里，我们完成了第三个核心命题：**Agent 系统到底由什么组成**。我们不仅通过六个工程矛盾自然逼出了组件的最小完备集，建立了冯·诺依曼心智映射，更确立了数据层面的第三条铁律——**$\mathbf{State \neq Context}$**（Context 永远是全局 State 面向单次推理的受限投影）；同时通过 IM 风控案例看清了一次受控落地的六阶段流转拓扑。
+>
+> 到这里，我们完成了第三个核心命题：**Agent 系统到底由什么组成**。我们不仅通过六个工程矛盾自然逼出了组件的最小完备集，建立了冯·诺依曼心智映射，更确立了数据层面的第三条铁律 —— **$\mathbf{State \neq Context}$**（Context 永远是全局 State 面向单次推理的受限投影）；同时通过 IM 风控案例看清了一次受控落地的六阶段流转拓扑。
 
 至此，静态组件与单步调用的受控时序已经清晰。然而，生产环境的真实任务绝非单次交互即可闭环。面对未预期的服务降级、数据库语法报错或环境扰动，系统如何在长达数十步的离散交互中，依靠多轮环境反馈完成自我纠偏与任务收敛？这需要我们进一步下沉到 Agent Loop 的核心动力学之中。
 
@@ -621,7 +647,9 @@ Model、Context、Tool 与 Environment 构成了 Agent 系统的静态结构。�
 
 Agent 引入的核心跃迁，在控制论视角下体现为**离散步进的反馈控制**：系统将非结构化异常**从“中断信号”降级为“决策输入”**。系统在离散步长 $t$ 上标准化为三段式的执行节律：
 
-$$\boxed{\text{Reason (语义推理)}} \;\longrightarrow\; \boxed{\text{Act (受控执行)}} \;\longrightarrow\; \boxed{\text{Observe (捕获反馈)}} \;\longrightarrow\; \text{驱动状态机推进}$$
+$$
+\boxed{\text{Reason (语义推理)}} \;\longrightarrow\; \boxed{\text{Act (受控执行)}} \;\longrightarrow\; \boxed{\text{Observe (捕获反馈)}} \;\longrightarrow\; \text{驱动状态机推进}
+$$
 
 - **Reason**：模型基于本轮装配的工作切片，推导当前最合理的动作意图或提出终止建议；
 - **Act**：Runtime 依据 Harness 策略进行合规拦截，通过适配器向外部环境发起物理 I/O；
