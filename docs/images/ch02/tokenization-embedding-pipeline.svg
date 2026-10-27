@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="790px" viewBox="0 0 1440 790" role="img" aria-labelledby="title desc">
+<title id="title">从文本到向量：Tokenization 与 Embedding</title>
+<desc id="desc">文本切分为 Token 并映射为向量；Token 边界是示意，具体结果依 Tokenizer 而异</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/></marker><marker id="arrowBlue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#426B9A"/></marker><marker id="arrowTeal" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3F8079"/></marker><marker id="arrowRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#B9504A"/></marker></defs>
+<rect width="1440" height="790" fill="#FFFFFF"/>
+<text x="40" y="54" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700">从文本到向量：Tokenization 与 Embedding</text>
+<text x="40" y="86" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">文本切分为 Token 并映射为向量；Token 边界是示意，具体结果依 Tokenizer 而异</text>
+<rect x="45" y="140" width="300" height="340" rx="16" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.3"/>
+<text x="65" y="175" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#2F5C93" font-weight="700">1  原始文本</text>
+<rect x="395" y="140" width="300" height="340" rx="16" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.3"/>
+<text x="415" y="175" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#2F5C93" font-weight="700">2  Token 与 ID</text>
+<rect x="745" y="140" width="300" height="340" rx="16" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.3"/>
+<text x="765" y="175" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#2F5C93" font-weight="700">3  Embedding 查表</text>
+<rect x="1095" y="140" width="300" height="340" rx="16" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.3"/>
+<text x="1115" y="175" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#2F5C93" font-weight="700">4  位置进入后续计算</text>
+<text x="68" y="218" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="700"><tspan x="68" dy="0">检查 payment-gateway</tspan><tspan x="68" dy="26.22">的 HTTP 504，关联</tspan><tspan x="68" dy="26.22">trace_id=a8f92b1c0e4d。</tspan></text>
+<text x="68" y="320" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#64748B">语义词与高熵标识符并存</text>
+<rect x="68" y="355" width="250" height="82" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+<text x="82" y="382" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="17" fill="#426B9A" font-weight="700">payment-gateway</text>
+<text x="82" y="412" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#B0763A" font-weight="700">trace_id=a8f92b1c0e4d</text>
+<text x="416" y="210" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#64748B">示意切分：自然语言片段</text>
+<rect x="416" y="232" width="92" height="36" rx="7" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="462.0" y="256" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#426B9A" font-weight="700">payment</text>
+<rect x="514" y="232" width="34" height="36" rx="7" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="531.0" y="256" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#426B9A" font-weight="700">-</text>
+<rect x="554" y="232" width="86" height="36" rx="7" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="597.0" y="256" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#426B9A" font-weight="700">gateway</text>
+<rect x="646" y="232" width="34" height="36" rx="7" fill="#EAF4F2" stroke="#3F8079" stroke-width="1"/>
+<text x="663.0" y="256" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#3F8079" font-weight="700">504</text>
+<text x="416" y="310" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#64748B">高熵 trace_id 可能被切得更碎</text>
+<rect x="416" y="330" width="33" height="34" rx="7" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="432.5" y="352" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#B0763A" font-weight="700">a8</text>
+<rect x="455" y="330" width="33" height="34" rx="7" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="471.5" y="352" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#B0763A" font-weight="700">f9</text>
+<rect x="494" y="330" width="33" height="34" rx="7" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="510.5" y="352" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#B0763A" font-weight="700">2b</text>
+<rect x="533" y="330" width="33" height="34" rx="7" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="549.5" y="352" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#B0763A" font-weight="700">1c</text>
+<rect x="572" y="330" width="33" height="34" rx="7" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="588.5" y="352" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#B0763A" font-weight="700">0e</text>
+<rect x="611" y="330" width="33" height="34" rx="7" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="627.5" y="352" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#B0763A" font-weight="700">4d</text>
+<text x="416" y="397" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">实际边界依模型分词器而异。</text>
+<text x="416" y="432" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#2F5C93" font-weight="700">每段再映射为一个 Token ID</text>
+<text x="766" y="210" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#64748B">ID 是索引，不是语义</text>
+<text x="766" y="246" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="12" fill="#64748B" font-weight="700">Token ID</text>
+<text x="852" y="246" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="12" fill="#64748B" font-weight="700">矩阵行</text>
+<text x="938" y="246" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="12" fill="#64748B" font-weight="700">向量分量（示意）</text>
+<rect x="766" y="260" width="62" height="29" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.8"/>
+<text x="797" y="280" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#426B9A" font-weight="700">1024</text>
+<line x1="831" y1="275" x2="844" y2="275" stroke="#64748B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="848" y="260" width="78" height="29" rx="6" fill="#EDF3F9" stroke="#426B9A" stroke-width="0.8"/>
+<text x="887" y="280" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#426B9A" font-weight="700">E[1024]</text>
+<rect x="936" y="265" width="24" height="19" rx="3" fill="#426B9A" stroke="#426B9A" stroke-width="0.5"/>
+<rect x="964" y="265" width="24" height="19" rx="3" fill="#3F8079" stroke="#3F8079" stroke-width="0.5"/>
+<rect x="992" y="265" width="24" height="19" rx="3" fill="#9DB4CE" stroke="#9DB4CE" stroke-width="0.5"/>
+<rect x="766" y="299" width="62" height="29" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.8"/>
+<text x="797" y="319" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#426B9A" font-weight="700">871</text>
+<line x1="831" y1="314" x2="844" y2="314" stroke="#64748B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="848" y="299" width="78" height="29" rx="6" fill="#EDF3F9" stroke="#426B9A" stroke-width="0.8"/>
+<text x="887" y="319" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#426B9A" font-weight="700">E[871]</text>
+<rect x="936" y="304" width="24" height="19" rx="3" fill="#426B9A" stroke="#426B9A" stroke-width="0.5"/>
+<rect x="964" y="304" width="24" height="19" rx="3" fill="#3F8079" stroke="#3F8079" stroke-width="0.5"/>
+<rect x="992" y="304" width="24" height="19" rx="3" fill="#9DB4CE" stroke="#9DB4CE" stroke-width="0.5"/>
+<rect x="766" y="338" width="62" height="29" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.8"/>
+<text x="797" y="358" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#426B9A" font-weight="700">6312</text>
+<line x1="831" y1="353" x2="844" y2="353" stroke="#64748B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="848" y="338" width="78" height="29" rx="6" fill="#EDF3F9" stroke="#426B9A" stroke-width="0.8"/>
+<text x="887" y="358" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#426B9A" font-weight="700">E[6312]</text>
+<rect x="936" y="343" width="24" height="19" rx="3" fill="#426B9A" stroke="#426B9A" stroke-width="0.5"/>
+<rect x="964" y="343" width="24" height="19" rx="3" fill="#3F8079" stroke="#3F8079" stroke-width="0.5"/>
+<rect x="992" y="343" width="24" height="19" rx="3" fill="#9DB4CE" stroke="#9DB4CE" stroke-width="0.5"/>
+<rect x="766" y="377" width="62" height="29" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.8"/>
+<text x="797" y="397" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#426B9A" font-weight="700">…</text>
+<line x1="831" y1="392" x2="844" y2="392" stroke="#64748B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="848" y="377" width="78" height="29" rx="6" fill="#EDF3F9" stroke="#426B9A" stroke-width="0.8"/>
+<text x="887" y="397" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#426B9A" font-weight="700">E[ID]</text>
+<rect x="936" y="382" width="24" height="19" rx="3" fill="#426B9A" stroke="#426B9A" stroke-width="0.5"/>
+<rect x="964" y="382" width="24" height="19" rx="3" fill="#3F8079" stroke="#3F8079" stroke-width="0.5"/>
+<rect x="992" y="382" width="24" height="19" rx="3" fill="#9DB4CE" stroke="#9DB4CE" stroke-width="0.5"/>
+<text x="766" y="435" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">E 的各行由训练学习得到。</text>
+<text x="1116" y="210" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#64748B">H0：n 个 Token 向量</text>
+<text x="1120" y="242" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="12" fill="#64748B" font-weight="700">位置</text>
+<text x="1175" y="242" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="12" fill="#64748B" font-weight="700">初始向量行</text>
+<text x="1138" y="275" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">p1</text>
+<rect x="1170" y="256" width="166" height="25" rx="5" fill="#EDF3F9" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="1253" y="273" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#2F5C93">e1  [ … d dims … ]</text>
+<text x="1138" y="309" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">p2</text>
+<rect x="1170" y="290" width="166" height="25" rx="5" fill="#EAF4F2" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="1253" y="307" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#2F5C93">e2  [ … d dims … ]</text>
+<text x="1138" y="343" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">p3</text>
+<rect x="1170" y="324" width="166" height="25" rx="5" fill="#EDF3F9" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="1253" y="341" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#2F5C93">e3  [ … d dims … ]</text>
+<text x="1138" y="377" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">…</text>
+<rect x="1170" y="358" width="166" height="25" rx="5" fill="#EAF4F2" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="1253" y="375" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#2F5C93">e4  [ … d dims … ]</text>
+<rect x="1116" y="399" width="250" height="61" rx="9" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="1130" y="422" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#B0763A" font-weight="700">RoPE：按位置旋转 Q / K</text>
+<text x="1130" y="446" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="12" fill="#24364B">发生在后续 Attention 计算中</text>
+<line x1="350" y1="305" x2="388" y2="305" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="700" y1="305" x2="738" y2="305" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1050" y1="305" x2="1088" y2="305" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="45" y="525" width="650" height="180" rx="16" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.3"/>
+<text x="70" y="565" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#2F5C93" font-weight="700">工程直觉：Token 成本看切分，不看字符数</text>
+<text x="70" y="603" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#24364B"><tspan x="70" dy="0">自然语言常较紧凑；路径、JSON、Base64 与随机 ID</tspan><tspan x="70" dy="22.08">可能切成更多片段，增加输入 Token 与延迟。</tspan></text>
+<rect x="70" y="655" width="196" height="30" rx="15" fill="#FFFFFF" stroke="#B0763A" stroke-width="1"/>
+<text x="168.0" y="675" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#B0763A" font-weight="700">日志 / 随机 ID</text>
+<text x="285" y="676" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#B0763A" font-weight="700">更容易发生 Token 膨胀</text>
+<rect x="720" y="525" width="675" height="180" rx="16" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.3"/>
+<text x="745" y="565" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700">向量是可计算表示，不是人工词典</text>
+<text x="745" y="603" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#24364B"><tspan x="745" dy="0">Embedding 的向量数值由训练学习得到，不能直接解释为</tspan><tspan x="745" dy="22.08">“支付”“超时”等人工定义的语义坐标。</tspan></text>
+<text x="745" y="675" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#B0763A" font-weight="700">Token ID 不等于字符；精确字符串操作应交给程序。</text>
+</svg>

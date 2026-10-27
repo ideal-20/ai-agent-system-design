@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="915px" viewBox="0 0 1440 915" role="img" aria-labelledby="title desc">
+<title id="title">能力、上下文与事实：三种信息来源各有职责</title>
+<desc id="desc">训练更新参数；推理读取固定参数与本轮 Context；具体事故事实必须从外部环境获取</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/></marker><marker id="arrowBlue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#426B9A"/></marker><marker id="arrowTeal" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3F8079"/></marker><marker id="arrowRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#B9504A"/></marker></defs>
+<rect width="1440" height="915" fill="#FFFFFF"/>
+<text x="40" y="54" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700">能力、上下文与事实：三种信息来源各有职责</text>
+<text x="40" y="86" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">训练更新参数；推理读取固定参数与本轮 Context；具体事故事实必须从外部环境获取</text>
+<rect x="45" y="125" width="1350" height="175" rx="16" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="157" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#2F5C93" font-weight="700">训练阶段：通过数据和反馈更新参数</text>
+<rect x="70" y="181" width="290" height="90" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.4"/>
+<text x="215.0" y="214" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#2F5C93" font-weight="700">训练数据与反馈</text>
+<text x="215.0" y="246" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">文本 / 代码 / 示范 / 奖励</text>
+<rect x="430" y="181" width="350" height="90" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.4"/>
+<text x="605.0" y="214" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#2F5C93" font-weight="700">优化器更新参数</text>
+<text x="605.0" y="246" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">计算损失 → 梯度 → 更新 θ</text>
+<rect x="965" y="181" width="390" height="90" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.4"/>
+<text x="1160.0" y="214" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#2F5C93" font-weight="700">模型参数 θ</text>
+<text x="1160.0" y="246" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">通用知识、模式识别与推理能力</text>
+<line x1="365" y1="226" x2="421" y2="226" stroke="#426B9A" stroke-width="2" marker-end="url(#arrowBlue)"/>
+<line x1="785" y1="226" x2="952" y2="226" stroke="#426B9A" stroke-width="2" marker-end="url(#arrowBlue)"/>
+<text x="865" y="212" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#426B9A" font-weight="700">写入 θ</text>
+<line x1="45" y1="333" x2="1395" y2="333" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="8 7"/>
+<text x="70" y="365" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#2F5C93" font-weight="700">推理阶段：参数保持固定，外围系统重建本轮上下文</text>
+<rect x="70" y="410" width="310" height="145" rx="16" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.4"/>
+<text x="93" y="449" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700">外部环境：现场观测</text>
+<text x="93" y="486" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#24364B"><tspan x="93" dy="0">日志 / 监控 / 链路追踪</tspan><tspan x="93" dy="22.08">例如：10:02 新实例超时率 8%</tspan></text>
+<line x1="225" y1="555" x2="225" y2="606" stroke="#B0763A" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="248" y="589" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#B0763A" font-weight="700">工具查询结果</text>
+<rect x="70" y="615" width="310" height="103" rx="14" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.4"/>
+<text x="225" y="651" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B0763A" font-weight="700">Runtime 获取与整理</text>
+<text x="225" y="684" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">核对来源、时效和采集范围</text>
+<rect x="550" y="410" width="320" height="308" rx="16" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.4"/>
+<text x="575" y="450" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700">当前上下文 C_t</text>
+<text x="575" y="481" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">本轮模型调用的输入</text>
+<rect x="575" y="505" width="270" height="33" rx="7" fill="#FFFFFF" stroke="#3F8079" stroke-width="0.8"/>
+<text x="590" y="528" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#24364B">任务目标与系统约束</text>
+<rect x="575" y="550" width="270" height="33" rx="7" fill="#FFFFFF" stroke="#3F8079" stroke-width="0.8"/>
+<text x="590" y="573" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#24364B">历史消息：由外围重新注入</text>
+<rect x="575" y="595" width="270" height="33" rx="7" fill="#FFFFFF" stroke="#3F8079" stroke-width="0.8"/>
+<text x="590" y="618" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#24364B">工具结果：现场证据</text>
+<rect x="575" y="640" width="270" height="33" rx="7" fill="#FFFFFF" stroke="#3F8079" stroke-width="0.8"/>
+<text x="590" y="663" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#24364B">时间窗口与待验证假设</text>
+<path d="M 382 666 L 470 666 L 470 580 L 542 580" fill="none" stroke="#3F8079" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="530" y1="580" x2="544" y2="580" stroke="#3F8079" stroke-width="2.2" marker-end="url(#arrowTeal)"/>
+<text x="465" y="698" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#3F8079" font-weight="700">证据注入</text>
+<rect x="965" y="503" width="390" height="145" rx="16" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.5"/>
+<text x="1160" y="547" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#2F5C93" font-weight="700">Model：本轮前向计算</text>
+<text x="1160" y="583" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B">f(固定参数 θ，当前上下文 C_t)</text>
+<text x="1160" y="619" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">利用通用能力分析本次任务</text>
+<line x1="1160" y1="275" x2="1160" y2="494" stroke="#426B9A" stroke-width="2.4" marker-end="url(#arrowBlue)"/>
+<rect x="1085" y="389" width="150" height="48" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<text x="1160" y="420" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700">只读 θ</text>
+<line x1="874" y1="577" x2="955" y2="577" stroke="#3F8079" stroke-width="2.4" marker-end="url(#arrowTeal)"/>
+<text x="917" y="558" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#3F8079" font-weight="700">输入</text>
+<line x1="1160" y1="650" x2="1160" y2="687" stroke="#426B9A" stroke-width="2" marker-end="url(#arrowBlue)"/>
+<rect x="965" y="695" width="390" height="60" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="1160" y="732" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#2F5C93" font-weight="700">输出：候选判断 / 待验证假设</text>
+<rect x="45" y="800" width="1350" height="76" rx="14" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.1"/>
+<text x="70" y="831" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700">通用能力 ≠ 本次事故事实；持续记忆依赖外围存储与上下文重建。</text>
+<text x="70" y="858" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#64748B">ROM / RAM / I/O 是职责类比；工具结果也可能过期、不完整或来源不可信。</text>
+</svg>

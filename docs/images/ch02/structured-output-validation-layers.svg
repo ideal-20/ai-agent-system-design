@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1100px" viewBox="0 0 1440 1100" role="img" aria-labelledby="title desc">
+<title id="title">结构化输出：约束生成形式，独立验证决策</title>
+<desc id="desc">生成约束有不同强度；合法 JSON、Schema 合规、业务正确与执行授权是不同层次</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/></marker><marker id="arrowBlue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#426B9A"/></marker><marker id="arrowTeal" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3F8079"/></marker><marker id="arrowRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#B9504A"/></marker></defs>
+<rect width="1440" height="1100" fill="#FFFFFF"/>
+<text x="40" y="54" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700">结构化输出：约束生成形式，独立验证决策</text>
+<text x="40" y="86" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">生成约束有不同强度；合法 JSON、Schema 合规、业务正确与执行授权是不同层次</text>
+<text x="45" y="140" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#2F5C93" font-weight="700">A  生成方式对比：约束强度递增，不是必须依次经过的流水线</text>
+<rect x="45" y="170" width="430" height="135" rx="14" fill="#F7F9FC" stroke="#64748B" stroke-width="1.3"/>
+<text x="67" y="207" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#64748B" font-weight="700">Prompt 软约束</text>
+<text x="67" y="245" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#24364B">依靠指令遵循，提高格式正确的概率</text>
+<text x="67" y="279" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#64748B">仍可能多输出说明、漏字段或破坏 JSON。</text>
+<rect x="505" y="170" width="430" height="135" rx="14" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.3"/>
+<text x="527" y="207" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700">JSON Mode</text>
+<text x="527" y="245" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#24364B">约束 JSON 语法，使输出可以解析</text>
+<text x="527" y="279" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#64748B">可解析，不代表字段满足目标接口。</text>
+<rect x="965" y="170" width="430" height="135" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.3"/>
+<text x="987" y="207" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700">Schema 受约束解码</text>
+<text x="987" y="245" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#24364B">限制字段、类型、枚举等结构要求</text>
+<text x="987" y="279" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#64748B">结构合规，不代表参数值符合当前任务。</text>
+<text x="45" y="337" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">Schema 保证限于服务支持范围、生成正常完成等适用条件；中断、拒绝响应仍需处理。</text>
+<rect x="45" y="375" width="1350" height="245" rx="16" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.3"/>
+<text x="70" y="414" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700">B  Schema 如何限制生成？在每一步采样之前屏蔽不合法候选</text>
+<text x="70" y="443" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">例：decision 只允许 REQUEST_TOOL 或 FINAL_ANSWER。候选片段仅作示意，实际按 Token 处理。</text>
+<rect x="70" y="475" width="250" height="105" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="90" y="508" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#2F5C93" font-weight="700">当前 JSON 前缀</text>
+<text x="90" y="548" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="17" fill="#24364B">{ &quot;decision&quot;: </text>
+<line x1="324" y1="527" x2="369" y2="527" stroke="#3F8079" stroke-width="2" marker-end="url(#arrowTeal)"/>
+<rect x="380" y="475" width="380" height="105" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="398" y="503" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700">按当前语法状态建立掩码</text>
+<text x="398" y="533" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#518367" font-weight="700">✓  &quot;REQUEST_TOOL&quot; / &quot;FINAL_ANSWER&quot;</text>
+<text x="398" y="562" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#B9504A" font-weight="700">×  &quot;DELETE_ALL&quot; / 123 / }</text>
+<line x1="764" y1="527" x2="809" y2="527" stroke="#3F8079" stroke-width="2" marker-end="url(#arrowTeal)"/>
+<rect x="820" y="475" width="240" height="105" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="940" y="511" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700">合法候选内采样</text>
+<text x="940" y="549" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#64748B">屏蔽后重新归一化概率</text>
+<line x1="1064" y1="527" x2="1109" y2="527" stroke="#3F8079" stroke-width="2" marker-end="url(#arrowTeal)"/>
+<rect x="1120" y="475" width="250" height="105" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1245" y="511" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700">追加 Token</text>
+<text x="1245" y="549" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#64748B">更新语法状态，继续解码</text>
+<text x="45" y="669" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#24364B" font-weight="700">C  输出生成后：结构检查之外，还要核验业务与权限</text>
+<rect x="45" y="700" width="640" height="290" rx="16" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.3"/>
+<text x="70" y="740" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#2F5C93" font-weight="700">合法 JSON，但填错了当前任务的参数</text>
+<rect x="70" y="765" width="590" height="198" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+<text x="92" y="793" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#24364B">{</text>
+<text x="92" y="815" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#24364B">  &quot;decision&quot;: &quot;REQUEST_TOOL&quot;,</text>
+<text x="92" y="837" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#24364B">  &quot;tool_name&quot;: &quot;query_deployments&quot;,</text>
+<text x="92" y="859" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#24364B">  &quot;arguments&quot;: {</text>
+<text x="92" y="881" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#B9504A" font-weight="700">    &quot;service&quot;: &quot;inventory-service&quot;,</text>
+<text x="92" y="903" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#B9504A" font-weight="700">    &quot;lookback_minutes&quot;: 5</text>
+<text x="92" y="925" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#24364B">  }</text>
+<text x="92" y="947" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#24364B">}</text>
+<rect x="725" y="700" width="670" height="290" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.3"/>
+<text x="750" y="740" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B0763A" font-weight="700">Runtime 的独立验收</text>
+<rect x="750" y="765" width="620" height="59" rx="9" fill="#EAF4F2" stroke="#3F8079" stroke-width="1"/>
+<text x="768" y="789" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700">1  语法与 Schema：通过</text>
+<text x="768" y="812" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#24364B">假设接口接受任意 service 字符串和整数时间窗。</text>
+<rect x="750" y="834" width="620" height="59" rx="9" fill="#FBEDEC" stroke="#B9504A" stroke-width="1"/>
+<text x="768" y="858" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700">2  业务语义：失败</text>
+<text x="768" y="881" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#24364B">应查 payment-gateway；5 分钟覆盖不到 20 分钟前发布。</text>
+<rect x="750" y="903" width="620" height="59" rx="9" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="768" y="927" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B0763A" font-weight="700">3  身份与权限：另行检查</text>
+<text x="768" y="950" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#24364B">即使参数正确，也不能跳过身份、范围和动作权限校验。</text>
+<rect x="45" y="1020" width="1350" height="55" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="1055" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#2F5C93" font-weight="700">生成约束解决“如何表达”；业务与权限校验决定“当前是否适用、是否允许执行”。</text>
+</svg>

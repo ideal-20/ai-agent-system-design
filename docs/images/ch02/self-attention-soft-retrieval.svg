@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="900px" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Self-Attention：按相关性读取并汇聚上下文</title>
+<desc id="desc">以问题末尾的当前位置为 Query，读取此前日志中的 Token；下方仅保留两个历史位置作教学示意</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/></marker><marker id="arrowBlue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#426B9A"/></marker><marker id="arrowTeal" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3F8079"/></marker><marker id="arrowRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#B9504A"/></marker></defs>
+<rect width="1440" height="900" fill="#FFFFFF"/>
+<text x="40" y="54" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700">Self-Attention：按相关性读取并汇聚上下文</text>
+<text x="40" y="86" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">以问题末尾的当前位置为 Query，读取此前日志中的 Token；下方仅保留两个历史位置作教学示意</text>
+<rect x="45" y="125" width="1350" height="166" rx="16" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="160" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#2F5C93" font-weight="700">序列顺序：日志在前，问题在后</text>
+<text x="70" y="195" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="17" fill="#24364B" font-weight="700">10:02  payment-gateway: downstream request failed, status=504</text>
+<text x="70" y="228" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="17" fill="#64748B">10:03  inventory-service: retry succeeded, status=200</text>
+<text x="70" y="265" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#2F5C93" font-weight="700">问题：支付网关报了什么错？</text>
+<rect x="400" y="242" width="180" height="30" rx="15" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="490.0" y="262" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#426B9A" font-weight="700">当前位置 i → Query</text>
+<rect x="45" y="327" width="345" height="413" rx="16" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.5"/>
+<text x="70" y="366" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#2F5C93" font-weight="700">1  Query：我要找什么？</text>
+<text x="70" y="408" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#24364B"><tspan x="70" dy="0">当前位置的隐藏表示 h_i</tspan><tspan x="70" dy="22.08">已经包含前缀与问题的信息。</tspan></text>
+<rect x="70" y="475" width="295" height="62" rx="10" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="217" y="515" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="23" fill="#2F5C93" font-weight="700">q_i = h_i W_Q</text>
+<text x="70" y="585" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B"><tspan x="70" dy="0">同一组训练好的投影矩阵，</tspan><tspan x="70" dy="20.7">把隐藏表示映射为查询特征。</tspan></text>
+<text x="70" y="684" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700">i 可以关注此前的 A 与 B。</text>
+<rect x="425" y="327" width="590" height="413" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.3"/>
+<text x="450" y="366" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#2F5C93" font-weight="700">2  Key：比较相关性，再归一化</text>
+<text x="450" y="402" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#64748B">Key: k_j = h_j W_K</text>
+<text x="450" y="424" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#64748B">Score: q_i · k_j / sqrt(d_k)</text>
+<text x="450" y="459" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="700">历史位置</text>
+<text x="725" y="459" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="700">示意分数</text>
+<text x="880" y="459" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="700">Softmax</text>
+<rect x="450" y="481" width="245" height="47" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="465" y="510" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700">A · 504（支付日志）</text>
+<text x="778" y="510" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#426B9A" font-weight="700">ln 4 ≈ 1.386</text>
+<line x1="837" y1="504" x2="865" y2="504" stroke="#64748B" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="880" y="481" width="107" height="47" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="934" y="511" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="20" fill="#426B9A" font-weight="700">0.8</text>
+<rect x="450" y="542" width="245" height="47" rx="8" fill="#F1F5F9" stroke="#64748B" stroke-width="1"/>
+<text x="465" y="571" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700">B · 200（库存日志）</text>
+<text x="778" y="571" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#64748B" font-weight="700">0</text>
+<line x1="837" y1="565" x2="865" y2="565" stroke="#64748B" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="880" y="542" width="107" height="47" rx="8" fill="#F1F5F9" stroke="#64748B" stroke-width="1"/>
+<text x="934" y="572" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="20" fill="#64748B" font-weight="700">0.2</text>
+<text x="450" y="635" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#2F5C93" font-weight="700">两位置示例：exp(ln 4) : exp(0) = 4 : 1</text>
+<text x="450" y="677" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#64748B">归一化：4 / (4 + 1) = 0.8；1 / (4 + 1) = 0.2</text>
+<rect x="1050" y="327" width="345" height="413" rx="16" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.5"/>
+<text x="1075" y="366" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700">3  Value：汇聚哪些内容？</text>
+<text x="1075" y="408" text-anchor="start" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="19" fill="#3F8079" font-weight="700">v_j = h_j W_V</text>
+<text x="1075" y="449" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">按权重混合 Value 向量。</text>
+<rect x="1075" y="482" width="295" height="55" rx="10" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1222" y="518" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#3F8079" font-weight="700">0.8 v_A</text>
+<text x="1222" y="570" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="25" fill="#64748B" font-weight="700">+</text>
+<rect x="1075" y="589" width="295" height="55" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="1222" y="625" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#64748B" font-weight="700">0.2 v_B</text>
+<text x="1222" y="695" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700">得到当前位置的新特征表示</text>
+<line x1="390" y1="530" x2="419" y2="530" stroke="#426B9A" stroke-width="2.5" marker-end="url(#arrowBlue)"/>
+<line x1="1015" y1="530" x2="1044" y2="530" stroke="#3F8079" stroke-width="2.5" marker-end="url(#arrowTeal)"/>
+<rect x="45" y="775" width="1350" height="81" rx="12" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="70" y="807" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B0763A" font-weight="700">注意力权重表示信息汇聚比例，不是事实正确概率。</text>
+<text x="70" y="837" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#24364B">真实模型在各层对允许访问的 Token 位置计算注意力；本图省略其余位置，多头与多层会共同加工上下文。</text>
+</svg>

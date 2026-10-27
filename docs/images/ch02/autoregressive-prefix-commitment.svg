@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="870px" viewBox="0 0 1440 870" role="img" aria-labelledby="title desc">
+<title id="title">自回归生成：每一步都把已选 Token 加入前缀</title>
+<desc id="desc">逐步选择并追加 Token；图中中文片段仅作示意，实际切分依 Tokenizer 而异</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/></marker><marker id="arrowBlue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#426B9A"/></marker><marker id="arrowTeal" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3F8079"/></marker><marker id="arrowRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#B9504A"/></marker></defs>
+<rect width="1440" height="870" fill="#FFFFFF"/>
+<text x="40" y="54" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700">自回归生成：每一步都把已选 Token 加入前缀</text>
+<text x="40" y="86" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">逐步选择并追加 Token；图中中文片段仅作示意，实际切分依 Tokenizer 而异</text>
+<rect x="45" y="125" width="1350" height="76" rx="14" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="68" y="156" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700">固定输入上下文 X</text>
+<text x="68" y="185" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="700">“payment-gateway 的 504 应该先排查什么？”</text>
+<rect x="45" y="245" width="410" height="365" rx="16" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.5"/>
+<rect x="65" y="265" width="150" height="30" rx="15" fill="#F7F9FC" stroke="#426B9A" stroke-width="1"/>
+<text x="140.0" y="285" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#426B9A" font-weight="700">Step 1 · t=1</text>
+<text x="67" y="345" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#24364B" font-weight="700">前缀：X</text>
+<text x="67" y="383" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">下一 Token 候选概率（示意）</text>
+<text x="69" y="417" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#24364B" font-weight="700">先</text>
+<rect x="138" y="403" width="205" height="14" rx="5" fill="#F1F5F9" stroke="#F1F5F9" stroke-width="0.5"/>
+<rect x="138" y="403" width="118.89999999999999" height="14" rx="5" fill="#426B9A" stroke="#426B9A" stroke-width="0.5"/>
+<text x="360" y="417" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">58%</text>
+<text x="69" y="448" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#24364B" font-weight="700">查看</text>
+<rect x="138" y="434" width="205" height="14" rx="5" fill="#F1F5F9" stroke="#F1F5F9" stroke-width="0.5"/>
+<rect x="138" y="434" width="45.1" height="14" rx="5" fill="#426B9A" stroke="#426B9A" stroke-width="0.5"/>
+<text x="360" y="448" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">22%</text>
+<text x="69" y="479" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#24364B" font-weight="700">其他</text>
+<rect x="138" y="465" width="205" height="14" rx="5" fill="#F1F5F9" stroke="#F1F5F9" stroke-width="0.5"/>
+<rect x="138" y="465" width="41.0" height="14" rx="5" fill="#426B9A" stroke="#426B9A" stroke-width="0.5"/>
+<text x="360" y="479" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">20%</text>
+<rect x="65" y="510" width="370" height="42" rx="9" fill="#F7F9FC" stroke="#426B9A" stroke-width="1"/>
+<text x="250" y="537" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700">选中：先</text>
+<line x1="250" y1="554" x2="250" y2="572" stroke="#426B9A" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="250" y="598" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">追加到前缀，成为下一步条件</text>
+<rect x="515" y="245" width="410" height="365" rx="16" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.5"/>
+<rect x="535" y="265" width="150" height="30" rx="15" fill="#F7F9FC" stroke="#3F8079" stroke-width="1"/>
+<text x="610.0" y="285" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#3F8079" font-weight="700">Step 2 · t=2</text>
+<text x="537" y="345" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#24364B" font-weight="700">前缀：X + “先”</text>
+<text x="537" y="383" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">下一 Token 候选概率（示意）</text>
+<text x="539" y="417" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#24364B" font-weight="700">检查</text>
+<rect x="608" y="403" width="205" height="14" rx="5" fill="#F1F5F9" stroke="#F1F5F9" stroke-width="0.5"/>
+<rect x="608" y="403" width="145.54999999999998" height="14" rx="5" fill="#3F8079" stroke="#3F8079" stroke-width="0.5"/>
+<text x="830" y="417" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">71%</text>
+<text x="539" y="448" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#24364B" font-weight="700">回滚</text>
+<rect x="608" y="434" width="205" height="14" rx="5" fill="#F1F5F9" stroke="#F1F5F9" stroke-width="0.5"/>
+<rect x="608" y="434" width="34.85" height="14" rx="5" fill="#3F8079" stroke="#3F8079" stroke-width="0.5"/>
+<text x="830" y="448" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">17%</text>
+<text x="539" y="479" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#24364B" font-weight="700">其他</text>
+<rect x="608" y="465" width="205" height="14" rx="5" fill="#F1F5F9" stroke="#F1F5F9" stroke-width="0.5"/>
+<rect x="608" y="465" width="24.599999999999998" height="14" rx="5" fill="#3F8079" stroke="#3F8079" stroke-width="0.5"/>
+<text x="830" y="479" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">12%</text>
+<rect x="535" y="510" width="370" height="42" rx="9" fill="#F7F9FC" stroke="#3F8079" stroke-width="1"/>
+<text x="720" y="537" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700">追加：检查</text>
+<line x1="720" y1="554" x2="720" y2="572" stroke="#3F8079" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="720" y="598" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">追加到前缀，成为下一步条件</text>
+<rect x="985" y="245" width="410" height="365" rx="16" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.5"/>
+<rect x="1005" y="265" width="150" height="30" rx="15" fill="#F7F9FC" stroke="#B0763A" stroke-width="1"/>
+<text x="1080.0" y="285" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#B0763A" font-weight="700">Step 3 · t=3</text>
+<text x="1007" y="345" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#24364B" font-weight="700">前缀：X + “先检查”</text>
+<text x="1007" y="383" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">下一 Token 候选概率（示意）</text>
+<text x="1009" y="417" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#24364B" font-weight="700">下游</text>
+<rect x="1078" y="403" width="205" height="14" rx="5" fill="#F1F5F9" stroke="#F1F5F9" stroke-width="0.5"/>
+<rect x="1078" y="403" width="131.2" height="14" rx="5" fill="#B0763A" stroke="#B0763A" stroke-width="0.5"/>
+<text x="1300" y="417" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">64%</text>
+<text x="1009" y="448" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#24364B" font-weight="700">数据库</text>
+<rect x="1078" y="434" width="205" height="14" rx="5" fill="#F1F5F9" stroke="#F1F5F9" stroke-width="0.5"/>
+<rect x="1078" y="434" width="51.25" height="14" rx="5" fill="#B0763A" stroke="#B0763A" stroke-width="0.5"/>
+<text x="1300" y="448" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">25%</text>
+<text x="1009" y="479" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#24364B" font-weight="700">其他</text>
+<rect x="1078" y="465" width="205" height="14" rx="5" fill="#F1F5F9" stroke="#F1F5F9" stroke-width="0.5"/>
+<rect x="1078" y="465" width="22.55" height="14" rx="5" fill="#B0763A" stroke="#B0763A" stroke-width="0.5"/>
+<text x="1300" y="479" text-anchor="middle" font-family="Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#64748B" font-weight="700">11%</text>
+<rect x="1005" y="510" width="370" height="42" rx="9" fill="#F7F9FC" stroke="#B0763A" stroke-width="1"/>
+<text x="1190" y="537" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B0763A" font-weight="700">追加：下游</text>
+<line x1="1190" y1="554" x2="1190" y2="572" stroke="#B0763A" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1190" y="598" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">追加到前缀，成为下一步条件</text>
+<line x1="455" y1="292" x2="505" y2="292" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="925" y1="292" x2="975" y2="292" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="45" y="655" width="850" height="160" rx="16" fill="#FBEDEC" stroke="#B9504A" stroke-width="1.4"/>
+<text x="70" y="693" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B9504A" font-weight="700">若证据不足时先断言“数据库连接池耗尽”</text>
+<text x="70" y="735" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#24364B"><tspan x="70" dy="0">该断言进入后续前缀，后续解释可能围绕它继续展开。</tspan><tspan x="70" dy="22.08">普通解码不会自动删除或回滚已生成内容。</tspan></text>
+<rect x="70" y="770" width="225" height="30" rx="15" fill="#FFFFFF" stroke="#B9504A" stroke-width="1"/>
+<text x="182.5" y="790" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#B9504A" font-weight="700">前序输出影响后续</text>
+<rect x="925" y="655" width="470" height="160" rx="16" fill="#EDF6EF" stroke="#518367" stroke-width="1.4"/>
+<text x="950" y="693" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#518367" font-weight="700">如何纠偏？</text>
+<text x="950" y="735" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#24364B"><tspan x="950" dy="0">注入新证据并重新判断；模型也可能</tspan><tspan x="950" dy="20.7">自行修正，但前序影响不会自动消失。</tspan></text>
+<line x1="1330" y1="690" x2="1330" y2="755" stroke="#518367" stroke-width="2" marker-end="url(#arrowTeal)"/>
+<text x="1310" y="790" text-anchor="end" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#518367" font-weight="700">新证据</text>
+</svg>

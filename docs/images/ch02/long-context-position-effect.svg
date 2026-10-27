@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="860px" viewBox="0 0 1440 860" role="img" aria-labelledby="title desc">
+<title id="title">长上下文：能装入窗口，不代表能同样可靠地使用</title>
+<desc id="desc">关键证据在不同位置的利用效果常呈首尾较强、中段较弱的趋势；具体表现依模型与任务而异</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/></marker><marker id="arrowBlue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#426B9A"/></marker><marker id="arrowTeal" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3F8079"/></marker><marker id="arrowRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#B9504A"/></marker></defs>
+<rect width="1440" height="860" fill="#FFFFFF"/>
+<text x="40" y="54" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700">长上下文：能装入窗口，不代表能同样可靠地使用</text>
+<text x="40" y="86" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B">关键证据在不同位置的利用效果常呈首尾较强、中段较弱的趋势；具体表现依模型与任务而异</text>
+<text x="55" y="140" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700">同一条关键证据，分别放在 64K 上下文的不同位置</text>
+<text x="55" y="185" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#518367" font-weight="700">开头</text>
+<rect x="55" y="202" width="400" height="42" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+<rect x="65" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="102" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="139" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="176" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="213" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="250" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="287" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="324" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="361" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="398" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="65" y="208" width="32" height="29" rx="5" fill="#518367" stroke="#518367" stroke-width="1"/>
+<text x="55" y="275" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">关键证据：504 集中在两台新扩容实例</text>
+<text x="510" y="185" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#B0763A" font-weight="700">中段</text>
+<rect x="510" y="202" width="400" height="42" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+<rect x="520" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="557" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="594" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="631" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="668" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="705" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="742" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="779" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="816" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="853" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="705" y="208" width="32" height="29" rx="5" fill="#B0763A" stroke="#B0763A" stroke-width="1"/>
+<text x="510" y="275" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">关键证据：504 集中在两台新扩容实例</text>
+<text x="965" y="185" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#518367" font-weight="700">末尾</text>
+<rect x="965" y="202" width="400" height="42" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+<rect x="975" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="1012" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="1049" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="1086" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="1123" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="1160" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="1197" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="1234" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="1271" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="1308" y="214" width="25" height="17" rx="4" fill="#DCE3EB" stroke="#DCE3EB" stroke-width="0.5"/>
+<rect x="1308" y="208" width="32" height="29" rx="5" fill="#518367" stroke="#518367" stroke-width="1"/>
+<text x="965" y="275" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">关键证据：504 集中在两台新扩容实例</text>
+<rect x="55" y="320" width="1330" height="450" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="82" y="360" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#2F5C93" font-weight="700">位置与证据利用：概念性趋势</text>
+<line x1="175" y1="690" x2="1295" y2="690" stroke="#64748B" stroke-width="1.5"/>
+<line x1="175" y1="690" x2="175" y2="415" stroke="#64748B" stroke-width="1.5"/>
+<line x1="175" y1="690" x2="1295" y2="690" stroke="#E5EAF0" stroke-width="1"/>
+<line x1="175" y1="621.25" x2="1295" y2="621.25" stroke="#E5EAF0" stroke-width="1"/>
+<line x1="175" y1="552.5" x2="1295" y2="552.5" stroke="#E5EAF0" stroke-width="1"/>
+<line x1="175" y1="483.75" x2="1295" y2="483.75" stroke="#E5EAF0" stroke-width="1"/>
+<line x1="175" y1="415" x2="1295" y2="415" stroke="#E5EAF0" stroke-width="1"/>
+<text x="88" y="430" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">较好</text>
+<text x="88" y="682" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">较弱</text>
+<text x="730" y="738" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#24364B" font-weight="700">关键证据在上下文中的位置</text>
+<text x="150" y="714" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">开头</text>
+<text x="735" y="714" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">中段</text>
+<text x="1290" y="714" text-anchor="middle" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B">末尾</text>
+<path d="M 180 455 C 310 455, 390 520, 520 585 C 650 650, 810 652, 950 590 C 1085 530, 1160 455, 1290 450" fill="none" stroke="#426B9A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="455" r="7" fill="#518367" stroke="#518367" stroke-width="1"/>
+<circle cx="735" cy="635" r="7" fill="#B0763A" stroke="#B0763A" stroke-width="1"/>
+<circle cx="1290" cy="450" r="7" fill="#518367" stroke="#518367" stroke-width="1"/>
+<text x="250" y="420" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#518367" font-weight="700">首因效应</text>
+<text x="650" y="675" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#B0763A" font-weight="700">中间迷失风险</text>
+<text x="1095" y="420" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#518367" font-weight="700">近因效应</text>
+<rect x="55" y="790" width="1330" height="48" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="78" y="821" text-anchor="start" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#2F5C93" font-weight="700">多跳推理更难：还要跨位置关联发布时刻、实例映射、下游超时等分散证据。</text>
+</svg>
