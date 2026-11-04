@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="950px" viewBox="0 0 1440 950" role="img" aria-labelledby="title desc">
+<title id="title">48K 全量转储与 2.5K 精炼投影：比较的是决策价值</title><desc id="desc">两个上下文面向同一排障决策；Token 更多，并不自动代表证据更充分</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="950" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">48K 全量转储与 2.5K 精炼投影：比较的是决策价值</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">两个上下文面向同一排障决策；Token 更多，并不自动代表证据更充分</text>
+<rect x="45" y="125" width="650" height="617" rx="14" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="69" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">方案甲 · 全量转储</text>
+<rect x="745" y="125" width="650" height="617" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="769" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">方案乙 · 精炼投影</text>
+<text x="670" y="169" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="27" fill="#B0763A" font-weight="700" text-anchor="end">48K Tokens</text>
+<text x="1370" y="169" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="27" fill="#3F8079" font-weight="700" text-anchor="end">2.5K Tokens</text>
+<text x="70" y="212" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B0763A" font-weight="700" text-anchor="start">大量重复与无关内容占据输入</text>
+<rect x="70" y="240" width="600" height="275" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<rect x="85" y="256" width="160" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="254" y="256" width="226" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="489" y="256" width="145" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="85" y="278" width="160" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="254" y="278" width="226" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="489" y="278" width="145" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="85" y="300" width="160" height="9" rx="3" fill="#EAF4F2" stroke="#EAF4F2" stroke-width="0"/>
+<rect x="254" y="300" width="226" height="9" rx="3" fill="#EAF4F2" stroke="#EAF4F2" stroke-width="0"/>
+<rect x="489" y="300" width="145" height="9" rx="3" fill="#EAF4F2" stroke="#EAF4F2" stroke-width="0"/>
+<rect x="85" y="322" width="160" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="254" y="322" width="226" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="489" y="322" width="145" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="85" y="344" width="160" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="254" y="344" width="226" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="489" y="344" width="145" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="85" y="366" width="160" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="254" y="366" width="226" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="489" y="366" width="145" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="85" y="388" width="160" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="254" y="388" width="226" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="489" y="388" width="145" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="85" y="410" width="160" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="254" y="410" width="226" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="489" y="410" width="145" height="9" rx="3" fill="#FBF1E4" stroke="#FBF1E4" stroke-width="0"/>
+<rect x="85" y="432" width="160" height="9" rx="3" fill="#EAF4F2" stroke="#EAF4F2" stroke-width="0"/>
+<rect x="254" y="432" width="226" height="9" rx="3" fill="#EAF4F2" stroke="#EAF4F2" stroke-width="0"/>
+<rect x="489" y="432" width="145" height="9" rx="3" fill="#EAF4F2" stroke="#EAF4F2" stroke-width="0"/>
+<rect x="114" y="303" width="500" height="53" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="364" y="336" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="700" text-anchor="middle">35,000 行日志 · 99% 为常规 INFO</text>
+<text x="92" y="494" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">少量异常线索分散在大量重复日志中</text>
+<rect x="70" y="534" width="292" height="100" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="92" y="568" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#B0763A" font-weight="700" text-anchor="start">85 个运维工具</text>
+<text x="92" y="602" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">完整 JSON Schema</text>
+<rect x="378" y="534" width="292" height="100" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="400" y="568" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#B0763A" font-weight="700" text-anchor="start">前 10 轮原始对话</text>
+<text x="400" y="602" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">包含试错与作废推断</text>
+<text x="70" y="684" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B0763A" font-weight="700" text-anchor="start">主要风险：重复、无关信息与历史干扰</text>
+<text x="770" y="212" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#3F8079" font-weight="700" text-anchor="start">围绕“为何新实例异常”组织输入</text>
+<rect x="770" y="240" width="600" height="65" rx="10" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<circle cx="798" cy="271" r="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.5"/>
+<text x="798" y="277" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="middle">1</text>
+<text x="824" y="266" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">当前阶段目标</text>
+<text x="824" y="292" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">验证新实例异常的竞争性原因</text>
+<rect x="770" y="319" width="600" height="65" rx="10" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<circle cx="798" cy="350" r="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.5"/>
+<text x="798" y="356" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="middle">2</text>
+<text x="824" y="345" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">核心异常对比</text>
+<text x="824" y="371" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">新实例错误率 42%  /  老实例 0.01%</text>
+<rect x="770" y="398" width="600" height="65" rx="10" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<circle cx="798" cy="429" r="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.5"/>
+<text x="798" y="435" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="middle">3</text>
+<text x="824" y="424" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">代表性异常</text>
+<text x="824" y="450" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">3 类 SocketTimeoutException 摘要</text>
+<rect x="770" y="477" width="600" height="65" rx="10" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<circle cx="798" cy="508" r="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.5"/>
+<text x="798" y="514" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="middle">4</text>
+<text x="824" y="503" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">竞争性假设</text>
+<text x="824" y="529" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">网络 / 白名单异常  ↔  新版本问题</text>
+<rect x="770" y="556" width="600" height="65" rx="10" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<circle cx="798" cy="587" r="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.5"/>
+<text x="798" y="593" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="middle">5</text>
+<text x="824" y="582" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">本阶段工具</text>
+<text x="824" y="608" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">3 个只读诊断工具声明</text>
+<text x="770" y="684" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">保留：关键差异、反证、待办与能力边界</text>
+<rect x="125" y="774" width="260" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="255.0" y="796" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">证据充分</text>
+<rect x="435" y="774" width="260" height="32" rx="8" fill="#EAF4F2" stroke="#3F8079" stroke-width="1"/>
+<text x="565.0" y="796" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="middle">相关且少冗余</text>
+<rect x="745" y="774" width="260" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="875.0" y="796" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">来源可核验</text>
+<rect x="1055" y="774" width="260" height="32" rx="8" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="1185.0" y="796" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#B0763A" font-weight="700" text-anchor="middle">预算与结构适配</text>
+<rect x="45" y="846" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="882" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">优化目标：在预算内提高有效信息密度，同时保留做出当前判断所需的关键证据。</text>
+<text x="48" y="930" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">48K / 2.5K 与日志、工具数量均为正文中的对照示例；图中不表达测得的准确率或性能提升。</text>
+</svg>

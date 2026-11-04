@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1100px" viewBox="0 0 1440 1100" role="img" aria-labelledby="title desc">
+<title id="title">压缩保真：同一份观测，两种结果</title><desc id="desc">减少字数之前，先保住影响范围、精确阈值、时序、事实等级与原始证据指针。</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="1100" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">压缩保真：同一份观测，两种结果</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">减少字数之前，先保住影响范围、精确阈值、时序、事实等级与原始证据指针。</text>
+<rect x="45" y="125" width="1350" height="286" rx="14" fill="#F7F9FC" stroke="#426B9A" stroke-width="1.2"/>
+<text x="69" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">原始观测 · OBS-GRP-03</text>
+<text x="72" y="195" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="700" text-anchor="start">时间</text>
+<text x="225" y="195" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="700" text-anchor="start">实体 / 下游</text>
+<text x="694" y="195" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="700" text-anchor="start">现场观测</text>
+<line x1="70" y1="207" x2="1366" y2="207" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="72" y="231" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">18:02:10</text>
+<text x="225" y="231" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B9504A" font-weight="600" text-anchor="start">inst-09 → bank-api-vip1</text>
+<text x="694" y="231" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="500" text-anchor="start">HTTP 504 · 3002 ms</text>
+<line x1="70" y1="244" x2="1366" y2="244" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="72" y="268" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">18:02:11</text>
+<text x="225" y="268" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B9504A" font-weight="600" text-anchor="start">inst-10 → bank-api-vip1</text>
+<text x="694" y="268" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="500" text-anchor="start">HTTP 504 · 3001 ms</text>
+<line x1="70" y1="281" x2="1366" y2="281" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="72" y="305" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">18:02:12</text>
+<text x="225" y="305" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="600" text-anchor="start">inst-01 → bank-api-vip2</text>
+<text x="694" y="305" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="500" text-anchor="start">HTTP 200 · 45 ms</text>
+<line x1="70" y1="318" x2="1366" y2="318" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="72" y="342" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">18:02:15</text>
+<text x="225" y="342" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B0763A" font-weight="600" text-anchor="start">payment-mysql</text>
+<text x="694" y="342" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="500" text-anchor="start">CPU 32% · 活跃连接 196 / 200</text>
+<line x1="70" y1="355" x2="1366" y2="355" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="72" y="379" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">18:02:20</text>
+<text x="225" y="379" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B0763A" font-weight="600" text-anchor="start">bank-api-vip1</text>
+<text x="694" y="379" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="500" text-anchor="start">P99 延迟 80 ms → 2950 ms</text>
+<path d="M 390 411 L 390 459" fill="none" stroke="#B9504A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#aB9504A)"/>
+<path d="M 1055 411 L 1055 459" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="410" y="442" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="start">自由改写</text>
+<text x="1075" y="442" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700" text-anchor="start">按槽位提取</text>
+<rect x="45" y="470" width="650" height="481" rx="14" fill="#FBEDEC" stroke="#B9504A" stroke-width="1.2"/>
+<text x="69" y="508" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B9504A" font-weight="700" text-anchor="start">自由文本摘要：读起来顺，决策要素却丢了</text>
+<rect x="70" y="533" width="599" height="110" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="93" y="566" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">“支付网关出现超时报错，底层数据库负载正常，下游银行接口响</text>
+<text x="93" y="596" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">应变慢，疑似下游故障引发。”</text>
+<text x="72" y="686" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#B9504A" font-weight="700" text-anchor="start">×</text>
+<text x="104" y="686" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B9504A" font-weight="700" text-anchor="start">影响范围消失</text>
+<text x="104" y="711" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">inst-09/10 与正常 inst-01 被合并成“网关”。</text>
+<text x="72" y="747" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#B9504A" font-weight="700" text-anchor="start">×</text>
+<text x="104" y="747" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B9504A" font-weight="700" text-anchor="start">高水位被掩盖</text>
+<text x="104" y="772" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">CPU 正常不能推出连接正常；196/200 被省略。</text>
+<text x="72" y="808" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#B9504A" font-weight="700" text-anchor="start">×</text>
+<text x="104" y="808" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B9504A" font-weight="700" text-anchor="start">事实变成推断</text>
+<text x="104" y="833" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">“疑似下游故障”缺少事实与假设的明确区分。</text>
+<text x="72" y="869" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#B9504A" font-weight="700" text-anchor="start">×</text>
+<text x="104" y="869" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B9504A" font-weight="700" text-anchor="start">回查线索丢失</text>
+<text x="104" y="894" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">没有时间窗口，也没有原始报文指针。</text>
+<rect x="740" y="470" width="655" height="481" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="764" y="508" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">结构化摘要：保留能够区分假设的事实</text>
+<text x="767" y="546" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="start">范围与对照</text>
+<text x="767" y="575" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">inst-09/10 · vip1 → 504；inst-01 · vip2 → 200</text>
+<line x1="765" y1="595" x2="1367" y2="595" stroke="#CBD5E1" stroke-width="0.8"/>
+<text x="767" y="627" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B0763A" font-weight="700" text-anchor="start">数值与阈值</text>
+<text x="767" y="656" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">CPU=32%；active_connections=196/200（98%）</text>
+<line x1="765" y1="676" x2="1367" y2="676" stroke="#CBD5E1" stroke-width="0.8"/>
+<text x="767" y="708" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="start">时序与精度</text>
+<text x="767" y="737" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">18:02:10–18:02:20；vip1 P99：80→2950 ms</text>
+<line x1="765" y1="757" x2="1367" y2="757" stroke="#CBD5E1" stroke-width="0.8"/>
+<text x="767" y="789" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="start">事实等级</text>
+<text x="767" y="818" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">保留已观测指标；根因仍待验证。</text>
+<rect x="765" y="872" width="603" height="55" rx="8" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="784" y="895" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700" text-anchor="start">原件索引：OBS-GRP-03</text>
+<text x="784" y="916" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">blob://context_store/inc_504/obs_03_raw.json</text>
+<rect x="45" y="1010" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="1046" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">保真目标是保留后续动作所需的鉴别信息；压缩率本身无法说明摘要是否可靠。</text>
+</svg>

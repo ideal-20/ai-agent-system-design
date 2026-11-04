@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1030px" viewBox="0 0 1440 1030" role="img" aria-labelledby="title desc">
+<title id="title">上下文选择：重复报错很相似，新线索却更能缩小假设空间</title><desc id="desc">同一候选池 d1～d12：比较语义 Top-10 与兼顾边际信息增益的选择结果</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="1030" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">上下文选择：重复报错很相似，新线索却更能缩小假设空间</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">同一候选池 d1～d12：比较语义 Top-10 与兼顾边际信息增益的选择结果</text>
+<rect x="45" y="120" width="1350" height="235" rx="14" fill="#F7F9FC" stroke="#426B9A" stroke-width="1.2"/>
+<text x="69" y="158" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">共同候选池 · 定位 payment-gateway HTTP 504 超时</text>
+<rect x="65" y="180" width="800" height="143" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="85" y="212" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">d1～d10：10 条同质超时报错</text>
+<rect x="85" y="235" width="64" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="117.0" y="257" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">d1</text>
+<rect x="161" y="235" width="64" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="193.0" y="257" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">d2</text>
+<rect x="237" y="235" width="64" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="269.0" y="257" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">d3</text>
+<rect x="313" y="235" width="64" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="345.0" y="257" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">d4</text>
+<rect x="389" y="235" width="64" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="421.0" y="257" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">d5</text>
+<rect x="465" y="235" width="64" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="497.0" y="257" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">d6</text>
+<rect x="541" y="235" width="64" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="573.0" y="257" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">d7</text>
+<rect x="617" y="235" width="64" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="649.0" y="257" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">d8</text>
+<rect x="693" y="235" width="64" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="725.0" y="257" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">d9</text>
+<rect x="769" y="235" width="64" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="801.0" y="257" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">d10</text>
+<text x="85" y="301" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">相似度 0.92～0.95 · 关键词高度重合</text>
+<rect x="884" y="180" width="238" height="143" rx="12" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="904" y="214.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">d11 · 扩容记录</text>
+<text x="904" y="256.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">17:59 扩容上线</text>
+<text x="904" y="282.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">inst-09 / inst-10</text>
+<text x="904" y="308.7" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">相似度 0.68</text>
+<rect x="1140" y="180" width="235" height="143" rx="12" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="1160" y="214.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">d12 · DB 正常</text>
+<text x="1160" y="256.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">CPU：32%</text>
+<text x="1160" y="282.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">连接：45/200</text>
+<text x="1160" y="308.7" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">相似度 0.61</text>
+<path d="M 380 367 L 380 408" fill="none" stroke="#B9504A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#aB9504A)"/>
+<path d="M 1058 367 L 1058 408" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<rect x="60" y="420" width="645" height="402" rx="14" fill="#FBEDEC" stroke="#B9504A" stroke-width="1.2"/>
+<text x="84" y="458" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B9504A" font-weight="700" text-anchor="start">A  仅按语义相似度取 Top-10</text>
+<text x="84" y="493" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B9504A" font-weight="700" text-anchor="start">预算被 10 条重复报错占满</text>
+<rect x="84" y="517" width="105" height="52" rx="9" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
+<text x="136.5" y="550" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">d1 · 504</text>
+<rect x="204" y="517" width="105" height="52" rx="9" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
+<text x="256.5" y="550" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">d2 · 504</text>
+<rect x="324" y="517" width="105" height="52" rx="9" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
+<text x="376.5" y="550" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">d3 · 504</text>
+<rect x="444" y="517" width="105" height="52" rx="9" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
+<text x="496.5" y="550" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">d4 · 504</text>
+<rect x="564" y="517" width="105" height="52" rx="9" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
+<text x="616.5" y="550" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">d5 · 504</text>
+<rect x="84" y="588" width="105" height="52" rx="9" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
+<text x="136.5" y="621" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">d6 · 504</text>
+<rect x="204" y="588" width="105" height="52" rx="9" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
+<text x="256.5" y="621" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">d7 · 504</text>
+<rect x="324" y="588" width="105" height="52" rx="9" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
+<text x="376.5" y="621" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">d8 · 504</text>
+<rect x="444" y="588" width="105" height="52" rx="9" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
+<text x="496.5" y="621" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">d9 · 504</text>
+<rect x="564" y="588" width="105" height="52" rx="9" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
+<text x="616.5" y="621" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">d10 · 504</text>
+<line x1="84" y1="678" x2="681" y2="678" stroke="#B9504A" stroke-width="1"/>
+<text x="84" y="717" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B9504A" font-weight="700" text-anchor="start">d11 扩容记录、d12 正常指标被淘汰</text>
+<text x="84" y="755" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">“还有更多超时报错”并没有回答：</text>
+<text x="84" y="784" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">为何只有这些实例异常？哪些分支可以削弱？</text>
+<rect x="735" y="420" width="645" height="402" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="759" y="458" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">B  兼顾边际增益与 Token 成本</text>
+<rect x="759" y="485" width="597" height="66" rx="9" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<rect x="775" y="502" width="147" height="32" rx="8" fill="#FFFFFF" stroke="#426B9A" stroke-width="1"/>
+<text x="848.5" y="524" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">d1 / 聚合摘要</text>
+<text x="940" y="526" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">故障症状：下游调用超时</text>
+<rect x="759" y="568" width="597" height="66" rx="9" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<rect x="775" y="585" width="147" height="32" rx="8" fill="#FFFFFF" stroke="#3F8079" stroke-width="1"/>
+<text x="848.5" y="607" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="middle">d11</text>
+<text x="940" y="609" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">时间与范围线索：新实例刚扩容</text>
+<rect x="759" y="651" width="597" height="66" rx="9" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.2"/>
+<rect x="775" y="668" width="147" height="32" rx="8" fill="#FFFFFF" stroke="#B0763A" stroke-width="1"/>
+<text x="848.5" y="690" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#B0763A" font-weight="700" text-anchor="middle">d12</text>
+<text x="940" y="692" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">正常对照：数据库暂无瓶颈迹象</text>
+<text x="759" y="765" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">d2～d10 聚合去重，避免重复占用证据预算</text>
+<text x="65" y="872" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#64748B" font-weight="400" text-anchor="start">选择下一条时综合评估：</text>
+<rect x="309" y="849" width="185" height="32" rx="8" fill="#F7F9FC" stroke="#426B9A" stroke-width="1"/>
+<text x="401.5" y="871" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">相关性</text>
+<rect x="520" y="849" width="185" height="32" rx="8" fill="#F7F9FC" stroke="#426B9A" stroke-width="1"/>
+<text x="612.5" y="871" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">时效性</text>
+<rect x="731" y="849" width="185" height="32" rx="8" fill="#F7F9FC" stroke="#426B9A" stroke-width="1"/>
+<text x="823.5" y="871" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">可信度</text>
+<rect x="942" y="849" width="185" height="32" rx="8" fill="#F7F9FC" stroke="#426B9A" stroke-width="1"/>
+<text x="1034.5" y="871" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">新颖度</text>
+<rect x="1153" y="849" width="185" height="32" rx="8" fill="#F7F9FC" stroke="#426B9A" stroke-width="1"/>
+<text x="1245.5" y="871" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">Token 成本</text>
+<rect x="45" y="926" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="962" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">证据已经入选之后，再问下一条还能增加什么；高相似度不等于高边际价值。</text>
+<text x="48" y="1010" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">相似度为正文中的示例数值；选择示意不表示所有片段等长，也不预设选定条数。</text>
+</svg>

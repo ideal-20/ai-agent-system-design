@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1000px" viewBox="0 0 1440 1000" role="img" aria-labelledby="title desc">
+<title id="title">结构化组装：把关键约束放稳，再通过发送前门禁</title><desc id="desc">上下文逻辑布局与四项确定性断言共同保证每轮输入完整、可用</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="1000" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">结构化组装：把关键约束放稳，再通过发送前门禁</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">上下文逻辑布局与四项确定性断言共同保证每轮输入完整、可用</text>
+<text x="65" y="143" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#426B9A" font-weight="700" text-anchor="start">编排好的候选 C_t</text>
+<text x="876" y="143" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#3F8079" font-weight="700" text-anchor="start">注入前预检</text>
+<rect x="60" y="167" width="710" height="165" rx="14" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="84" y="205" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">头部锚区 · 稳定契约</text>
+<text x="85" y="244" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#24364B" font-weight="400" text-anchor="start">System Policy · 安全红线 · 输出 Schema</text>
+<text x="85" y="278" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#24364B" font-weight="400" text-anchor="start">稳定的 Tool Schemas</text>
+<rect x="60" y="350" width="710" height="213" rx="14" fill="#F7F9FC" stroke="#64748B" stroke-width="1.2"/>
+<text x="84" y="388" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#64748B" font-weight="700" text-anchor="start">中部背景与证据区 · 按逻辑分仓</text>
+<rect x="85" y="411" width="76" height="32" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text x="123.0" y="433" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="middle">参考</text>
+<text x="183" y="434" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">Knowledge / Memory</text>
+<rect x="85" y="458" width="76" height="32" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text x="123.0" y="480" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="middle">轨迹</text>
+<text x="183" y="481" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">History 摘要</text>
+<rect x="85" y="505" width="76" height="32" rx="8" fill="#FFFFFF" stroke="#426B9A" stroke-width="1"/>
+<text x="123.0" y="527" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">观测</text>
+<text x="183" y="528" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">按来源与假设组织 Observation</text>
+<rect x="60" y="581" width="710" height="160" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="84" y="619" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">尾部焦点区 · 当轮决策</text>
+<text x="85" y="652" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">最新 Task State · 待解疑问</text>
+<text x="85" y="685" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">Decision Request：下一步最有区分度的只读探测</text>
+<path d="M 783 452 L 833 452" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="850" y="167" width="535" height="116" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="870" y="201.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">01  核心契约</text>
+<text x="870" y="243.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">system_policy 与 decision_request 完整</text>
+<rect x="850" y="306" width="535" height="116" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="870" y="340.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">02  工具引用</text>
+<text x="870" y="382.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">所提及的可用工具均已挂载</text>
+<rect x="850" y="445" width="535" height="116" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="870" y="479.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">03  敏感信息</text>
+<text x="870" y="521.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">检查私钥、连接串密码等残留</text>
+<rect x="850" y="584" width="535" height="116" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="870" y="618.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">04  预算与语法</text>
+<text x="870" y="660.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">Token 未超限；YAML / JSON 结构完整</text>
+<path d="M 1118 710 L 1118 758" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="1142" y="742" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700" text-anchor="start">全部通过</text>
+<rect x="919" y="771" width="398" height="64" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1118" y="812" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700" text-anchor="middle">决策就绪的 C_t → Model</text>
+<rect x="60" y="792" width="710" height="62" rx="14" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="85" y="830" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">分级降级 → 重新选择 / 压缩 → 重组载荷</text>
+<path d="M 850 725 L 810 725 L 810 823 L 780 823" fill="none" stroke="#B0763A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#aB0763A)"/>
+<text x="814" y="706" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B0763A" font-weight="700" text-anchor="start">失败</text>
+<path d="M 52 823 L 30 823 L 30 250 L 50 250" fill="none" stroke="#B0763A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#aB0763A)"/>
+<rect x="45" y="910" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="946" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">预检失败触发重编译；关键契约、决策请求与结构化块的完整性需要重新验证。</text>
+</svg>

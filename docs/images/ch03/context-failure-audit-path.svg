@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1110px" viewBox="0 0 1440 1110" role="img" aria-labelledby="title desc">
+<title id="title">错误决策之后：先沿上下文链路定位失效环节</title><desc id="desc">联合检查当轮 C_t、原始返回和压缩记录；一次错误可能包含多个原因</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="1110" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">错误决策之后：先沿上下文链路定位失效环节</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">联合检查当轮 C_t、原始返回和压缩记录；一次错误可能包含多个原因</text>
+<rect x="45" y="130" width="1350" height="90" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="65" y="164.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#426B9A" font-weight="700" text-anchor="start">审计入口：保存错误输出 R_t，并取回同轮输入 C_t 与原始证据引用</text>
+<text x="65" y="258" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="700" text-anchor="start">检查顺序</text>
+<text x="815" y="258" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="700" text-anchor="start">发现问题后，优先修复的位置</text>
+<rect x="65" y="285" width="610" height="125" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="85" y="319.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">1  关键证据进入 C_t 了吗？</text>
+<text x="85" y="362.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">例如：扩容记录、下游耗时、异常实例范围</text>
+<rect x="815" y="285" width="555" height="125" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="835" y="319.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">采集 / 选择</text>
+<text x="835" y="362.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">核对采集触发规则、检索范围与排序裁剪</text>
+<path d="M 675 348 L 815 348" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<text x="745" y="327" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#426B9A" font-weight="700" text-anchor="middle">未进入</text>
+<path d="M 370 410 L 370 465" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="392" y="442" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="start">通过</text>
+<rect x="65" y="465" width="610" height="125" rx="12" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.2"/>
+<text x="85" y="499.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#B0763A" font-weight="700" text-anchor="start">2  证据能被清楚识别吗？</text>
+<text x="85" y="542.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">检查重复日志、实体歧义与证据摆放位置</text>
+<rect x="815" y="465" width="555" height="125" rx="12" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="835" y="499.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#B0763A" font-weight="700" text-anchor="start">规范化 / 预算 / 布局</text>
+<text x="835" y="542.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">聚合重复信息，突出关键差异与正常对照</text>
+<path d="M 675 528 L 815 528" fill="none" stroke="#B0763A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#aB0763A)"/>
+<text x="745" y="507" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B0763A" font-weight="700" text-anchor="middle">被淹没</text>
+<path d="M 370 590 L 370 645" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="392" y="622" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="start">通过</text>
+<rect x="65" y="645" width="610" height="125" rx="12" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
+<text x="85" y="679.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#B9504A" font-weight="700" text-anchor="start">3  摘要忠实保留关键事实吗？</text>
+<text x="85" y="722.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">对照原件：196/200 是否被改成“数据库正常”</text>
+<rect x="815" y="645" width="555" height="125" rx="12" fill="#FBEDEC" stroke="#B9504A" stroke-width="1.2"/>
+<text x="835" y="679.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#B9504A" font-weight="700" text-anchor="start">压缩 / 原件回查</text>
+<text x="835" y="722.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">修订结构化槽位，补齐阈值与 ref_id</text>
+<path d="M 675 708 L 815 708" fill="none" stroke="#B9504A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#aB9504A)"/>
+<text x="745" y="687" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">已失真</text>
+<path d="M 370 770 L 370 825" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="392" y="802" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="start">通过</text>
+<rect x="65" y="825" width="610" height="145" rx="12" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="85" y="859.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700" text-anchor="start">4  进一步检验推理与任务契约</text>
+<text x="85" y="902.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">复核目标、工具接口和评测口径</text>
+<text x="85" y="928.7" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">重复回放，比较更强模型或不同推理配置</text>
+<rect x="815" y="825" width="555" height="145" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="835" y="859.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700" text-anchor="start">模型与系统联合诊断</text>
+<text x="835" y="902.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">上下文达标后，再评估模型能力瓶颈</text>
+<text x="835" y="928.7" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">根据对照结果调整模型路由与验收门禁</text>
+<path d="M 675 895 L 815 895" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<rect x="45" y="1006" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="1042" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">先找到证据在哪一步失效，再决定调整采集、组织、压缩，还是模型配置。</text>
+<text x="48" y="1090" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">诊断路径用于定位优先级；上下文检查通过，并不单独证明错误完全来自模型能力。</text>
+</svg>

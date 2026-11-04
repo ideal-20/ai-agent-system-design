@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1030px" viewBox="0 0 1440 1030" role="img" aria-labelledby="title desc">
+<title id="title">上下文质量：从编译记录到验证与调优的闭环</title><desc id="desc">保存可追溯输入，将线上运行指标与离线质量验证关联到同一版本</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="1030" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">上下文质量：从编译记录到验证与调优的闭环</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">保存可追溯输入，将线上运行指标与离线质量验证关联到同一版本</text>
+<text x="45" y="140" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#24364B" font-weight="700" text-anchor="start">A  每轮留下可复核的链路，再用结果改进编译策略</text>
+<rect x="60" y="175" width="390" height="150" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="80" y="209.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">① 编译并保存 C_t</text>
+<text x="80" y="251.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">记录输入快照、来源引用、裁剪原因</text>
+<text x="80" y="277.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">绑定编译策略与压缩模板版本</text>
+<rect x="525" y="175" width="390" height="150" rx="12" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="545" y="209.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">② 运行模型与工具</text>
+<text x="545" y="251.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">关联 request_id / incident_id</text>
+<text x="545" y="277.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">记录动作、结果、延迟与缓存用量</text>
+<rect x="990" y="175" width="390" height="150" rx="12" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="1010" y="209.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">③ 离线验证与线上审计</text>
+<text x="1010" y="251.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">回放失败案例，核对原始证据</text>
+<text x="1010" y="277.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">比较不同策略下的决策表现</text>
+<path d="M 450 250 L 525 250" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<path d="M 915 250 L 990 250" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<rect x="525" y="390" width="390" height="125" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="545" y="424.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">④ 调整并版本化策略</text>
+<text x="545" y="466.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">采集 / 选择 / 压缩 / 物理布局</text>
+<path d="M 1185 325 L 1185 452 L 915 452" fill="none" stroke="#B0763A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#aB0763A)"/>
+<path d="M 525 452 L 255 452 L 255 325" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<text x="50" y="555" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#24364B" font-weight="700" text-anchor="start">B  四项指标的证据来源不同</text>
+<text x="70" y="598" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="700" text-anchor="start">指标</text>
+<text x="375" y="598" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="700" text-anchor="start">数据来源 / 验证方式</text>
+<text x="935" y="598" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="700" text-anchor="start">用于定位</text>
+<rect x="45" y="615" width="1350" height="62" rx="10" fill="#EDF3F9" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="653" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="start">关键证据覆盖率</text>
+<text x="375" y="653" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">离线基准 E* 与选入的证据集</text>
+<text x="935" y="653" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">核心证据是否被漏采或过滤？</text>
+<rect x="45" y="691" width="1350" height="62" rx="10" fill="#EAF4F2" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="729" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#3F8079" font-weight="700" text-anchor="start">有效信噪比</text>
+<text x="375" y="729" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">线上引用 / 依赖证据的代理统计</text>
+<text x="935" y="729" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">是否注入了大量低价值背景？</text>
+<rect x="45" y="767" width="1350" height="62" rx="10" fill="#FBF1E4" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="805" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B0763A" font-weight="700" text-anchor="start">压缩语义保真度</text>
+<text x="375" y="805" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">原件与摘要的成对回放、人工核验</text>
+<text x="935" y="805" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">关键阈值与鉴别特征是否保留？</text>
+<rect x="45" y="843" width="1350" height="62" rx="10" fill="#EDF3F9" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="881" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="start">前缀缓存命中率</text>
+<text x="375" y="881" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">推理服务返回的缓存 Token 用量</text>
+<text x="935" y="881" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">动态字段是否破坏连续前缀？</text>
+<rect x="45" y="926" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="962" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">把指标变化追溯到具体 C_t 与编译版本，才能判断哪项策略需要调整。</text>
+<text x="48" y="1010" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">引用比例是代理指标，不能直接等同于模型实际注意力或证据因果贡献。</text>
+</svg>

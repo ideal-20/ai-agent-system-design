@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1050px" viewBox="0 0 1440 1050" role="img" aria-labelledby="title desc">
+<title id="title">三级上下文：摘要驻留，原件按需回查</title><desc id="desc">L1 / L2 进入当轮 C_t；L3 保留完整原始材料，通过 Runtime 按引用加载到下一轮。</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="1050" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">三级上下文：摘要驻留，原件按需回查</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">L1 / L2 进入当轮 C_t；L3 保留完整原始材料，通过 Runtime 按引用加载到下一轮。</text>
+<rect x="45" y="126" width="838" height="612" rx="18" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.6"/>
+<text x="73" y="169" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#426B9A" font-weight="700" text-anchor="start">当轮模型视野 C_t</text>
+<rect x="659" y="145" width="195" height="32" rx="8" fill="#FFFFFF" stroke="#426B9A" stroke-width="1"/>
+<text x="756.5" y="167" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">占用上下文配额</text>
+<rect x="73" y="199" width="782" height="197" rx="14" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="97" y="237" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">L1  常驻核心层</text>
+<text x="99" y="269" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#24364B" font-weight="400" text-anchor="start">System Policy 与当前阶段契约</text>
+<text x="99" y="306" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#24364B" font-weight="400" text-anchor="start">最新 Task State 与当前轮新鲜详细观测</text>
+<rect x="99" y="345" width="301" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="249.5" y="367" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">例：当前轮刚采集的 TCP 错误码</text>
+<rect x="73" y="424" width="782" height="198" rx="14" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="97" y="462" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">L2  压缩摘要与索引</text>
+<text x="99" y="494" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#24364B" font-weight="400" text-anchor="start">前序观测的结构化摘要 · 已完成子任务结论</text>
+<text x="99" y="531" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#24364B" font-weight="400" text-anchor="start">ref_id = OBS-GRP-03  +  raw_payload_pointer</text>
+<rect x="99" y="569" width="420" height="32" rx="8" fill="#EAF4F2" stroke="#3F8079" stroke-width="1"/>
+<text x="309.0" y="591" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="middle">粒度不足时，使用引用请求展开原始证据</text>
+<path d="M 467 622 L 467 656" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="260" y="656" width="414" height="57" rx="11" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="467" y="693" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="middle">Model：读取 L1 + L2 做本轮决策</text>
+<rect x="964" y="126" width="431" height="305" rx="14" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="988" y="164" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">L3  外部冷存归档</text>
+<text x="989" y="199" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B0763A" font-weight="700" text-anchor="start">完整工具返回 / 日志 / 历史对话</text>
+<text x="989" y="241" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">OBS-GRP-03 → 原始报文</text>
+<text x="989" y="277" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">保留未进入摘要的 TCP 字段</text>
+<text x="989" y="313" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">对象存储 / KV 存储等</text>
+<rect x="989" y="370" width="278" height="32" rx="8" fill="#FFFFFF" stroke="#B0763A" stroke-width="1"/>
+<text x="1128.0" y="392" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#B0763A" font-weight="700" text-anchor="middle">不占当前模型窗口配额</text>
+<path d="M 855 275 L 926 275 L 926 223 L 963 223" fill="none" stroke="#B0763A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#aB0763A)"/>
+<text x="917" y="317" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#B0763A" font-weight="700" text-anchor="middle">归档原件</text>
+<text x="917" y="342" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#B0763A" font-weight="500" text-anchor="middle">换出细节</text>
+<rect x="964" y="485" width="431" height="253" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="988" y="523" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">Runtime · 按需换入</text>
+<text x="990" y="558" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">1  校验引用与访问权限</text>
+<text x="990" y="602" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">2  读取指定原始片段</text>
+<text x="990" y="646" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">3  规范化并纳入下一轮预算</text>
+<path d="M 1178 485 L 1178 432" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="1200" y="464" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="start">读取原件</text>
+<path d="M 674 685 L 916 685 L 916 564 L 963 564" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<text x="802" y="675" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">提出展开请求</text>
+<rect x="45" y="787" width="1350" height="131" rx="14" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="824" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#426B9A" font-weight="700" text-anchor="start">下一轮 C_t+1</text>
+<rect x="292" y="807" width="719" height="85" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="318" y="841" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">L1 新增：OBS-GRP-03 中请求的原始片段</text>
+<text x="318" y="872" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">随后与最新 State、其余入选证据一起编译并发送。</text>
+<path d="M 1178 738 L 1178 850 L 1012 850" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="1201" y="798" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="start">换入下一轮</text>
+<text x="70" y="866" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">inspect_raw_evidence</text>
+<text x="70" y="891" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">(ref_id, filter)</text>
+<rect x="45" y="960" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="996" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">可逆的是“沿指针回查原件”的能力；结构化摘要自身仍是有损压缩，不能无损解压还原。</text>
+</svg>

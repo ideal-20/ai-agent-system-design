@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="990px" viewBox="0 0 1440 990" role="img" aria-labelledby="title desc">
+<title id="title">分仓预算：为证据保留空间，也为核心契约设置底线</title><desc id="desc">以单轮 12,000 Token 为例：先分配配额，再在仓内筛选；闲置份额按规则借调</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="990" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">分仓预算：为证据保留空间，也为核心契约设置底线</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">以单轮 12,000 Token 为例：先分配配额，再在仓内筛选；闲置份额按规则借调</text>
+<rect x="45" y="120" width="1350" height="106" rx="14" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="75" y="159" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="25" fill="#426B9A" font-weight="700" text-anchor="start">B_input ≤ W − B_output − B_reserve</text>
+<text x="75" y="199" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">输入预算 = 窗口上限 − 输出与推理预留 − Token 估算及协议包装缓冲</text>
+<text x="65" y="271" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#24364B" font-weight="700" text-anchor="start">① 默认配额 · 12,000 Token</text>
+<rect x="70" y="305" width="162.5" height="106" rx="2" fill="#426B9A" stroke="#FFFFFF" stroke-width="2"/>
+<text x="151.25" y="347" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">控制与契约</text>
+<text x="151.25" y="383" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#FFFFFF" font-weight="700" text-anchor="middle">1,500 T</text>
+<rect x="232.5" y="305" width="270.8333333333333" height="106" rx="2" fill="#3F8079" stroke="#FFFFFF" stroke-width="2"/>
+<text x="367.91666666666663" y="347" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">状态与近期轨迹</text>
+<text x="367.91666666666663" y="383" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#FFFFFF" font-weight="700" text-anchor="middle">2,500 T</text>
+<rect x="503.3333333333333" y="305" width="650.0" height="106" rx="2" fill="#557C9E" stroke="#FFFFFF" stroke-width="2"/>
+<text x="828.3333333333333" y="347" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">实时观测证据</text>
+<text x="828.3333333333333" y="383" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#FFFFFF" font-weight="700" text-anchor="middle">6,000 T</text>
+<rect x="1153.3333333333333" y="305" width="216.66666666666669" height="106" rx="2" fill="#B0763A" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1261.6666666666665" y="347" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">知识 / 记忆</text>
+<text x="1261.6666666666665" y="383" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#FFFFFF" font-weight="700" text-anchor="middle">2,000 T</text>
+<text x="151.25" y="446" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">刚性保底</text>
+<text x="151.25" y="476" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="middle">Policy / Task / Tool</text>
+<text x="367.9" y="446" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">配额上限</text>
+<text x="367.9" y="476" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="middle">State / History</text>
+<text x="828.3" y="446" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">核心配额</text>
+<text x="828.3" y="476" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="middle">Observations</text>
+<text x="1261.6499999999999" y="446" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">弹性参考仓</text>
+<text x="1261.6499999999999" y="476" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="middle">Knowledge / Memory</text>
+<rect x="60" y="518" width="645" height="312" rx="14" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="84" y="556" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">② 知识检索超量：在自身仓内裁剪</text>
+<rect x="84" y="584" width="245" height="120" rx="12" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.2"/>
+<text x="104" y="618.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">召回多篇长文档</text>
+<text x="104" y="660.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">候选量超过 2,000 T</text>
+<text x="104" y="686.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">进入仓内选择与压缩</text>
+<path d="M 340 642 L 390 642" fill="none" stroke="#B0763A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#aB0763A)"/>
+<rect x="402" y="584" width="279" height="120" rx="12" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.2"/>
+<text x="422" y="618.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">参考仓最多 2,000 T</text>
+<text x="422" y="660.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">保留高价值片段</text>
+<text x="422" y="686.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">不挤占契约与观测配额</text>
+<line x1="84" y1="736" x2="681" y2="736" stroke="#B0763A" stroke-width="1"/>
+<text x="84" y="776" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B0763A" font-weight="700" text-anchor="start">舱壁隔离：一个来源超量，不拖垮整份输入。</text>
+<rect x="735" y="518" width="645" height="312" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="759" y="556" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">③ 参考仓闲置：按优先级借给证据仓</text>
+<text x="759" y="591" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">参考需求为 0 时，允许借出闲置的 2,000 T</text>
+<rect x="760" y="620" width="424" height="66" rx="3" fill="#557C9E" stroke="#FFFFFF" stroke-width="1.2"/>
+<rect x="1184" y="620" width="141" height="66" rx="3" fill="#3F8079" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="972" y="659" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#FFFFFF" font-weight="700" text-anchor="middle">观测核心 6,000 T</text>
+<text x="1254" y="659" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="middle">+2,000 T</text>
+<path d="M 1254 712 L 1254 698" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="760" y="752" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700" text-anchor="start">可用观测配额 → 8,000 T</text>
+<text x="760" y="790" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#64748B" font-weight="400" text-anchor="start">总输入上限仍为 12,000 T</text>
+<rect x="45" y="886" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="922" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">配额让信息域有边界；弹性借用只转移闲置额度，不能突破总预算。</text>
+<text x="48" y="970" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">本图展示配额规则，不代表每轮必须填满所有仓位；Token 数以目标模型的实际计数为准。</text>
+</svg>

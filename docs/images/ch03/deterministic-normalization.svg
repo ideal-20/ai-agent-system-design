@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1050px" viewBox="0 0 1440 1050" role="img" aria-labelledby="title desc">
+<title id="title">确定性规范化：先消除格式歧义，再交给模型推理</title><desc id="desc">同一服务、同一时间轴、显式量纲，以及可以回查的聚合证据</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="1050" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">确定性规范化：先消除格式歧义，再交给模型推理</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">同一服务、同一时间轴、显式量纲，以及可以回查的聚合证据</text>
+<rect x="45" y="125" width="375" height="792" rx="14" fill="#F7F9FC" stroke="#64748B" stroke-width="1.2"/>
+<text x="69" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#64748B" font-weight="700" text-anchor="start">异构原始返回</text>
+<rect x="65" y="185" width="335" height="138" rx="12" fill="#FFFFFF" stroke="#64748B" stroke-width="1.2"/>
+<text x="85" y="219.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#64748B" font-weight="700" text-anchor="start">Prometheus</text>
+<text x="85" y="261.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">service=&quot;payment-gw-prod&quot;</text>
+<text x="85" y="287.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">val=0.0812</text>
+<rect x="65" y="350" width="335" height="173" rx="12" fill="#FFFFFF" stroke="#64748B" stroke-width="1.2"/>
+<text x="85" y="384.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#64748B" font-weight="700" text-anchor="start">ELK</text>
+<text x="85" y="426.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">2026-10-22 18:02:10 +08:00</text>
+<text x="85" y="452.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">appId=10086</text>
+<text x="85" y="478.7" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">msg=&quot;Read timed out&quot;</text>
+<rect x="65" y="550" width="335" height="143" rx="12" fill="#FFFFFF" stroke="#64748B" stroke-width="1.2"/>
+<text x="85" y="584.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#64748B" font-weight="700" text-anchor="start">Spinnaker</text>
+<text x="85" y="626.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">cluster=&quot;pay_gateway_online&quot;</text>
+<text x="85" y="652.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">10/22/2026 10:00 AM UTC</text>
+<rect x="65" y="720" width="335" height="143" rx="12" fill="#FFFFFF" stroke="#64748B" stroke-width="1.2"/>
+<text x="85" y="754.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#64748B" font-weight="700" text-anchor="start">SkyWalking</text>
+<text x="85" y="796.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">endpoint=&quot;/v2/pay/submit&quot;</text>
+<text x="85" y="822.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">p99_latency=&quot;2840&quot;</text>
+<path d="M 430 500 L 467 500" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="480" y="125" width="400" height="792" rx="14" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="504" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="start">Context Compiler · 确定性代码</text>
+<rect x="500" y="187" width="360" height="105" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="520" y="221.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">1  实体归一</text>
+<text x="520" y="263.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">CMDB 映射内部别名与 app_id</text>
+<path d="M 680 295 L 680 314" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="500" y="322" width="360" height="105" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="520" y="356.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">2  时间对齐</text>
+<text x="520" y="398.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">转换时区并计算相对故障时间</text>
+<path d="M 680 430 L 680 449" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="500" y="457" width="360" height="105" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="520" y="491.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">3  量纲补全</text>
+<text x="520" y="533.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">查指标定义，补单位和历史基线</text>
+<path d="M 680 565 L 680 584" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="500" y="592" width="360" height="105" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="520" y="626.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">4  日志聚合</text>
+<text x="520" y="668.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">相同模板折叠，保留计数和分布</text>
+<path d="M 680 700 L 680 719" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="500" y="727" width="360" height="105" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="520" y="761.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">5  Schema 提取</text>
+<text x="520" y="803.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">去掉无关封装，输出业务字段</text>
+<path d="M 890 500 L 927 500" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<rect x="940" y="125" width="455" height="792" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="964" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">统一证据 · 模型可直接比较</text>
+<rect x="960" y="185" width="415" height="105" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="980" y="219.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">标准实体</text>
+<text x="980" y="261.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">payment-gateway (app_id: 10086)</text>
+<rect x="960" y="312" width="415" height="142" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="980" y="346.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">同一时间轴</text>
+<text x="980" y="388.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">发布：18:00:00+08:00</text>
+<text x="980" y="415.9" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">日志：18:02:10+08:00</text>
+<text x="980" y="443.8" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">日志相对发布：+2m10s</text>
+<rect x="960" y="464" width="415" height="142" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="980" y="498.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">量纲与基线</text>
+<text x="980" y="540.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">错误率：8.12%</text>
+<text x="980" y="567.9" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">p99：2840 ms</text>
+<text x="980" y="595.8" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">正常基线：120 ms</text>
+<rect x="960" y="616" width="415" height="172" rx="12" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="980" y="650.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">聚合日志</text>
+<text x="980" y="692.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">SocketTimeoutException：4,892 次</text>
+<text x="980" y="718.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">分布：inst-09 / inst-10</text>
+<text x="980" y="744.7" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">报错点：BankChannelClient.invoke</text>
+<text x="980" y="771.05" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">样本指针：trace_id=a8f92b…</text>
+<rect x="960" y="798" width="415" height="79" rx="10" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="980" y="827" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">保留来源、时间范围与原件指针</text>
+<text x="980" y="856" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">规范化后的证据仍可追溯</text>
+<rect x="45" y="946" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="982" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">确定性代码处理实体、时间、量纲与结构；模型把推理预算用于证据之间的关系。</text>
+<text x="48" y="1030" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">示例字段来自正文；时区转换须校验原始时间戳，量纲必须依据指标元数据补全。</text>
+</svg>

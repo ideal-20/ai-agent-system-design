@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="950px" viewBox="0 0 1440 950" role="img" aria-labelledby="title desc">
+<title id="title">History 记录发生过什么，State 维护当前确认了什么</title><desc id="desc">每轮工具执行后，由 Runtime 校验并合并事件，生成无冲突的当前状态快照</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="950" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">History 记录发生过什么，State 维护当前确认了什么</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">每轮工具执行后，由 Runtime 校验并合并事件，生成无冲突的当前状态快照</text>
+<rect x="45" y="125" width="450" height="615" rx="14" fill="#F7F9FC" stroke="#426B9A" stroke-width="1.2"/>
+<text x="69" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">History · 按序追加的事件轨迹</text>
+<line x1="86" y1="218" x2="86" y2="640" stroke="#426B9A" stroke-width="2"/>
+<circle cx="86" cy="228" r="7" fill="#426B9A" stroke="#426B9A" stroke-width="1.5"/>
+<rect x="109" y="205" width="361" height="70" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="127" y="232" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#426B9A" font-weight="700" text-anchor="start">R1 · 工具观测</text>
+<text x="127" y="259" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">数据库 CPU = 32%</text>
+<circle cx="86" cy="316" r="7" fill="#B0763A" stroke="#B0763A" stroke-width="1.5"/>
+<rect x="109" y="293" width="361" height="70" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="127" y="320" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B0763A" font-weight="700" text-anchor="start">R1 · 模型假设</text>
+<text x="127" y="347" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">怀疑 inventory-service 超时</text>
+<circle cx="86" cy="404" r="7" fill="#3F8079" stroke="#3F8079" stroke-width="1.5"/>
+<rect x="109" y="381" width="361" height="70" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="127" y="408" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700" text-anchor="start">R2 · 工具观测</text>
+<text x="127" y="435" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">inventory-service P99 = 15ms</text>
+<circle cx="86" cy="492" r="7" fill="#3F8079" stroke="#3F8079" stroke-width="1.5"/>
+<rect x="109" y="469" width="361" height="70" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="127" y="496" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700" text-anchor="start">R2 · 修正判断</text>
+<text x="127" y="523" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">排除该下游延迟假设</text>
+<circle cx="86" cy="580" r="7" fill="#426B9A" stroke="#426B9A" stroke-width="1.5"/>
+<rect x="109" y="557" width="361" height="70" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="127" y="584" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#426B9A" font-weight="700" text-anchor="start">R3 · 工具观测</text>
+<text x="127" y="611" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">网关线程池 = 200/200</text>
+<text x="69" y="707" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">历史保留试错过程，供回溯与审计。</text>
+<rect x="535" y="246" width="300" height="320" rx="14" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="559" y="284" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">Runtime 状态更新器</text>
+<text x="560" y="315" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="start">核对事实等级</text>
+<text x="560" y="343" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">观测与推测分开</text>
+<text x="560" y="390" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="start">验证状态跃迁</text>
+<text x="560" y="418" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">检查来源与阶段规则</text>
+<text x="560" y="465" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="start">合并当前状态</text>
+<text x="560" y="493" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">按时间更新，消除冲突</text>
+<path d="M 495 405 L 527 405" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<path d="M 835 405 L 870 405" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<rect x="535" y="607" width="300" height="108" rx="10" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="556" y="638.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B0763A" font-weight="700" text-anchor="start">未经验证的模型推测</text>
+<text x="556" y="664.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B0763A" font-weight="700" text-anchor="start">不得写入 confirmed_facts</text>
+<rect x="880" y="125" width="515" height="615" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="904" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">Task State · 当前物化快照</text>
+<rect x="905" y="207" width="465" height="83" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="925" y="235" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="start">已确认事实</text>
+<text x="925" y="265" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">线程池 200/200，已饱和</text>
+<rect x="905" y="305" width="465" height="106" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="925" y="333" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="700" text-anchor="start">已排除假设</text>
+<text x="925" y="363" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">inventory-service 延迟导致阻塞</text>
+<text x="925" y="388" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">依据：R2 P99 = 15ms</text>
+<rect x="905" y="426" width="465" height="106" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="925" y="454" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B0763A" font-weight="700" text-anchor="start">待验证假设</text>
+<text x="925" y="484" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">H1 网络 / 白名单异常</text>
+<text x="925" y="509" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">H2 新版本死锁 / 线程泄漏</text>
+<rect x="905" y="547" width="465" height="83" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="925" y="575" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="start">下一步行动</text>
+<text x="925" y="605" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">比对 Span 耗时与镜像版本</text>
+<rect x="45" y="771" width="1350" height="60" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="809" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="700" text-anchor="start">注入策略：State 提供当前权威快照；History 仅保留近期必要的细粒度因果轨迹。</text>
+<rect x="45" y="846" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="882" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">历史中“曾经怀疑”不等于当前“已经证实”；状态更新应交由受校验的 Runtime 完成。</text>
+<text x="48" y="930" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">类比：History 像 WAL / Binlog，State 像当前物化视图；历史仍可归档回查，不必每轮从头重放。</text>
+</svg>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="940px" viewBox="0 0 1440 940" role="img" aria-labelledby="title desc">
+<title id="title">按需采集：随着问题缩小，同时收窄数据与工具</title><desc id="desc">当前阶段与待验证假设共同决定下一轮采集什么、让模型看见哪些工具</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="940" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">按需采集：随着问题缩小，同时收窄数据与工具</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">当前阶段与待验证假设共同决定下一轮采集什么、让模型看见哪些工具</text>
+<rect x="45" y="120" width="1350" height="92" rx="14" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="70" y="155" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">当前阶段：只读诊断</text>
+<text x="70" y="188" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">子目标：定位 payment-gateway 的下游调用超时</text>
+<rect x="1045" y="148" width="320" height="32" rx="8" fill="#FFFFFF" stroke="#426B9A" stroke-width="1"/>
+<text x="1205.0" y="170" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">Phase + Active Hypotheses</text>
+<text x="60" y="257" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#24364B" font-weight="700" text-anchor="start">① 观测数据：沿着异常范围渐进钻取</text>
+<rect x="60" y="289" width="280" height="184" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="80" y="323.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">服务级指标</text>
+<text x="80" y="366.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">请求量 / 错误率 / 耗时</text>
+<text x="80" y="394.25" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">先发现服务整体异常</text>
+<rect x="82" y="427" width="236" height="32" rx="8" fill="#FFFFFF" stroke="#426B9A" stroke-width="1"/>
+<text x="200.0" y="449" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">聚合概览</text>
+<path d="M 348 380 L 398 380" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="410" y="289" width="280" height="184" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="430" y="323.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">异常实例范围</text>
+<text x="430" y="366.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">inst-09、inst-10</text>
+<text x="430" y="394.25" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">聚焦错误集中的实例</text>
+<rect x="432" y="427" width="236" height="32" rx="8" fill="#FFFFFF" stroke="#426B9A" stroke-width="1"/>
+<text x="550.0" y="449" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">缩小实例集合</text>
+<path d="M 698 380 L 748 380" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="760" y="289" width="280" height="184" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="780" y="323.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">定向 Trace</text>
+<text x="780" y="366.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">在异常实例中筛选</text>
+<text x="780" y="394.25" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">失败的下游调用链</text>
+<rect x="782" y="427" width="236" height="32" rx="8" fill="#FFFFFF" stroke="#426B9A" stroke-width="1"/>
+<text x="900.0" y="449" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">定位失败链路</text>
+<path d="M 1048 380 L 1098 380" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="1110" y="289" width="270" height="184" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="1130" y="323.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">代表性日志</text>
+<text x="1130" y="366.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">按 Trace ID 抽样</text>
+<text x="1130" y="394.25" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">保留报错点与上下文</text>
+<rect x="1132" y="427" width="226" height="32" rx="8" fill="#FFFFFF" stroke="#426B9A" stroke-width="1"/>
+<text x="1245.0" y="449" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">读取相关明细</text>
+<text x="70" y="508" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#64748B" font-weight="400" text-anchor="start">每轮只向下一层索取所需材料；正常实例的日志不进入本轮候选池。</text>
+<text x="60" y="569" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#24364B" font-weight="700" text-anchor="start">② 工具空间：从平台能力中挂载当前阶段的子集</text>
+<rect x="60" y="598" width="380" height="207" rx="14" fill="#F7F9FC" stroke="#64748B" stroke-width="1.2"/>
+<text x="84" y="636" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#64748B" font-weight="700" text-anchor="start">工具仓库 · 120 个工具</text>
+<rect x="80" y="660" width="156" height="32" rx="8" fill="#FFFFFF" stroke="#3F8079" stroke-width="1"/>
+<text x="158.0" y="682" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="middle">监控查询</text>
+<rect x="256" y="660" width="156" height="32" rx="8" fill="#FFFFFF" stroke="#3F8079" stroke-width="1"/>
+<text x="334.0" y="682" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="middle">日志检索</text>
+<rect x="80" y="704" width="156" height="32" rx="8" fill="#FFFFFF" stroke="#426B9A" stroke-width="1"/>
+<text x="158.0" y="726" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">数据库诊断</text>
+<rect x="256" y="704" width="156" height="32" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text x="334.0" y="726" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="middle">容器重启</text>
+<rect x="80" y="748" width="156" height="32" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text x="158.0" y="770" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="middle">流量切换</text>
+<rect x="256" y="748" width="156" height="32" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text x="334.0" y="770" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="middle">工单派发</text>
+<path d="M 450 700 L 510 700" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="525" y="598" width="295" height="207" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="545" y="632.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">阶段筛选器</text>
+<text x="545" y="675.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">READ_ONLY_DIAGNOSIS</text>
+<text x="545" y="701.7" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">网络与调用链子目标</text>
+<text x="545" y="728.0500000000001" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">只挂载相关只读 Schema</text>
+<path d="M 830 700 L 890 700" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<rect x="905" y="598" width="475" height="207" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="929" y="636" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">本轮可见工具 · 3～5 个</text>
+<text x="929" y="673" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">query_metrics · search_logs</text>
+<text x="929" y="706" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">query_downstream_span_metrics</text>
+<text x="929" y="739" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">compare_instance_configs</text>
+<text x="929" y="783" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700" text-anchor="start">更多类别：通过元工具向 Runtime 申请</text>
+<rect x="45" y="850" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="886" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">注册工具数是平台能力；本轮可见子集是上下文选择。执行权限仍由 Runtime 校验。</text>
+</svg>

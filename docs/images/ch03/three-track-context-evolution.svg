@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1120px" viewBox="0 0 1440 1120" role="img" aria-labelledby="title desc">
+<title id="title">长程任务：从滑动窗口到三轨演进</title><desc id="desc">以第 8 轮继续排障为例：早期关键线索由 State 保存，近期细节由 History 支撑，旧过程在阶段边界归档。</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="1120" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">长程任务：从滑动窗口到三轨演进</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">以第 8 轮继续排障为例：早期关键线索由 State 保存，近期细节由 History 支撑，旧过程在阶段边界归档。</text>
+<text x="60" y="156" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#64748B" font-weight="700" text-anchor="start">轮次</text>
+<text x="323" y="156" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">R1</text>
+<text x="459" y="156" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">R2</text>
+<text x="595" y="156" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">R3</text>
+<text x="731" y="156" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">R4</text>
+<text x="867" y="156" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">R5</text>
+<text x="1003" y="156" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">R6</text>
+<text x="1139" y="156" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">R7</text>
+<text x="1275" y="156" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="700" text-anchor="middle">R8</text>
+<path d="M 260 177 L 1368 177" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a64748B)"/>
+<rect x="45" y="207" width="1350" height="225" rx="14" fill="#FBEDEC" stroke="#B9504A" stroke-width="1.2"/>
+<text x="69" y="245" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B9504A" font-weight="700" text-anchor="start">单一滑动窗口 · 第 8 轮只保留最近 N=5 轮</text>
+<text x="70" y="298" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B9504A" font-weight="700" text-anchor="start">当前可见</text>
+<rect x="272" y="269" width="104" height="61" rx="8" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.1" stroke-dasharray="4 4"/>
+<text x="324" y="307" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B9504A" font-weight="700" text-anchor="middle">已滑出</text>
+<rect x="408" y="269" width="104" height="61" rx="8" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.1" stroke-dasharray="4 4"/>
+<text x="460" y="307" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B9504A" font-weight="700" text-anchor="middle">已滑出</text>
+<rect x="544" y="269" width="104" height="61" rx="8" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.1" stroke-dasharray="4 4"/>
+<text x="596" y="307" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B9504A" font-weight="700" text-anchor="middle">已滑出</text>
+<rect x="680" y="269" width="104" height="61" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.1"/>
+<text x="732" y="307" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="middle">保留</text>
+<rect x="816" y="269" width="104" height="61" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.1"/>
+<text x="868" y="307" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="middle">保留</text>
+<rect x="952" y="269" width="104" height="61" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.1"/>
+<text x="1004" y="307" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="middle">保留</text>
+<rect x="1088" y="269" width="104" height="61" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.1"/>
+<text x="1140" y="307" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="middle">保留</text>
+<rect x="1224" y="269" width="104" height="61" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.1"/>
+<text x="1276" y="307" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="middle">保留</text>
+<rect x="398" y="258" width="124" height="83" rx="10" fill="none" stroke="#B9504A" stroke-width="2"/>
+<text x="70" y="372" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B9504A" font-weight="700" text-anchor="start">丢失的 R2 线索</text>
+<text x="272" y="372" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B9504A" font-weight="700" text-anchor="start">故障集中于新扩容实例 inst-09/10</text>
+<text x="272" y="405" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">R3–R7 连续查询细节后，模型可能重新从全站 12 个实例开始排查。</text>
+<rect x="45" y="467" width="1350" height="529" rx="14" fill="#F7F9FC" stroke="#426B9A" stroke-width="1.2"/>
+<text x="69" y="505" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">三轨机制 · 分开保存事实、过程与归档</text>
+<text x="70" y="566" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="start">轨道 1</text>
+<text x="70" y="597" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">Task State</text>
+<text x="70" y="628" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">跨轮锚定</text>
+<rect x="272" y="541" width="104" height="89" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="324" y="578" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="500" text-anchor="middle">初始</text>
+<text x="324" y="608" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="500" text-anchor="middle">状态</text>
+<rect x="408" y="541" width="919" height="89" rx="10" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="432" y="575" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">R2 写入 confirmed_facts：异常范围 = inst-09/10</text>
+<text x="432" y="609" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">持续进入每轮视野；新证据出现时更新槽位，旧值进入变更日志。</text>
+<path d="M 459 433 L 459 540" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)" stroke-dasharray="6 5"/>
+<rect x="488" y="452" width="239" height="31" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="500" y="474" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#426B9A" font-weight="700" text-anchor="start">当轮提炼，长期保留</text>
+<line x1="70" y1="662" x2="1370" y2="662" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="715" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="start">轨道 2</text>
+<text x="70" y="746" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">Active History</text>
+<text x="70" y="777" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">局部操作连续性</text>
+<rect x="272" y="698" width="104" height="70" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="324" y="741" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="500" text-anchor="middle">已闭合</text>
+<rect x="408" y="698" width="104" height="70" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="460" y="741" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="500" text-anchor="middle">已闭合</text>
+<rect x="544" y="698" width="104" height="70" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="596" y="741" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="500" text-anchor="middle">已闭合</text>
+<rect x="680" y="698" width="104" height="70" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="732" y="741" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="500" text-anchor="middle">已闭合</text>
+<rect x="816" y="698" width="104" height="70" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="868" y="741" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="500" text-anchor="middle">已闭合</text>
+<rect x="952" y="698" width="104" height="70" rx="8" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1004" y="726" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700" text-anchor="middle">查询</text>
+<text x="1004" y="752" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="500" text-anchor="middle">R6</text>
+<rect x="1088" y="698" width="104" height="70" rx="8" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1140" y="726" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700" text-anchor="middle">校验</text>
+<text x="1140" y="752" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="500" text-anchor="middle">R7</text>
+<rect x="1224" y="698" width="104" height="70" rx="8" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1276" y="726" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700" text-anchor="middle">待决策</text>
+<text x="1276" y="752" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="500" text-anchor="middle">R8</text>
+<text x="272" y="802" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">示意：保留当前未闭合子任务的近期“动作 → 观测”细节。</text>
+<line x1="70" y1="831" x2="1370" y2="831" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="885" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B0763A" font-weight="700" text-anchor="start">轨道 3</text>
+<text x="70" y="916" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">Epoch GC</text>
+<text x="70" y="947" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">阶段边界回收</text>
+<rect x="272" y="859" width="447" height="100" rx="10" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="293" y="894" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B0763A" font-weight="700" text-anchor="start">已闭合阶段的原始报文与中间推理</text>
+<text x="293" y="928" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">阶段切换时批量卸载，避免反复重写摘要。</text>
+<path d="M 719 910 L 826 910" fill="none" stroke="#B0763A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#aB0763A)"/>
+<text x="772" y="891" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B0763A" font-weight="700" text-anchor="middle">归档</text>
+<rect x="829" y="859" width="499" height="100" rx="10" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.2"/>
+<text x="851" y="894" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B0763A" font-weight="700" text-anchor="start">L3 冷存：完整细节 + 唯一引用</text>
+<text x="851" y="928" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">State 保留关键结论与指针，必要时回查。</text>
+<rect x="45" y="1030" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="1066" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">事实的存活由决策价值与证据有效性决定；对话的最近轮次只负责局部操作连续性。</text>
+</svg>

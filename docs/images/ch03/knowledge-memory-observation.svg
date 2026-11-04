@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="940px" viewBox="0 0 1440 940" role="img" aria-labelledby="title desc">
+<title id="title">Knowledge、Memory、Observation：三种信息，三种证据身份</title><desc id="desc">先标明来源、时间与适用范围，再判断它对本次故障能支持什么结论</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="940" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">Knowledge、Memory、Observation：三种信息，三种证据身份</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">先标明来源、时间与适用范围，再判断它对本次故障能支持什么结论</text>
+<rect x="45" y="125" width="430" height="445" rx="14" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="69" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="24" fill="#426B9A" font-weight="700" text-anchor="start">Knowledge</text>
+<text x="69" y="206" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">领域知识</text>
+<rect x="397" y="150" width="42" height="50" rx="5" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<line x1="406" y1="163" x2="429" y2="163" stroke="#426B9A" stroke-width="2"/>
+<line x1="406" y1="173" x2="431" y2="173" stroke="#426B9A" stroke-width="2"/>
+<line x1="406" y1="183" x2="423" y2="183" stroke="#426B9A" stroke-width="2"/>
+<line x1="69" y1="231" x2="451" y2="231" stroke="#426B9A" stroke-width="1"/>
+<text x="69" y="265" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">运维手册 · 当前有效版本</text>
+<rect x="69" y="291" width="382" height="136" rx="10" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="89" y="329" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">线程池饱和的常见原因：</text>
+<text x="89" y="358" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">下游响应慢 / Full GC / 代码死锁</text>
+<text x="69" y="473" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">通用规则；帮助构造候选假设</text>
+<text x="69" y="539" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">保持独立类型与元数据</text>
+<rect x="505" y="125" width="430" height="445" rx="14" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="529" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="24" fill="#B0763A" font-weight="700" text-anchor="start">Memory</text>
+<text x="529" y="206" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">历史经验</text>
+<rect x="857" y="150" width="42" height="50" rx="5" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.2"/>
+<line x1="866" y1="163" x2="889" y2="163" stroke="#B0763A" stroke-width="2"/>
+<line x1="866" y1="173" x2="891" y2="173" stroke="#B0763A" stroke-width="2"/>
+<line x1="866" y1="183" x2="883" y2="183" stroke="#B0763A" stroke-width="2"/>
+<line x1="529" y1="231" x2="911" y2="231" stroke="#B0763A" stroke-width="1"/>
+<text x="529" y="265" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">历史事故 · 上个月</text>
+<rect x="529" y="291" width="382" height="136" rx="10" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.2"/>
+<text x="549" y="329" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">payment-gateway 曾出现 504；</text>
+<text x="549" y="358" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">当时根因为 Redis 连接池泄漏</text>
+<text x="529" y="473" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B0763A" font-weight="700" text-anchor="start">过去事件；需检查时效与场景</text>
+<text x="529" y="539" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">保持独立类型与元数据</text>
+<rect x="965" y="125" width="430" height="445" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="989" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="24" fill="#3F8079" font-weight="700" text-anchor="start">Observation</text>
+<text x="989" y="206" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">当前观测</text>
+<rect x="1317" y="150" width="42" height="50" rx="5" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<line x1="1326" y1="163" x2="1349" y2="163" stroke="#3F8079" stroke-width="2"/>
+<line x1="1326" y1="173" x2="1351" y2="173" stroke="#3F8079" stroke-width="2"/>
+<line x1="1326" y1="183" x2="1343" y2="183" stroke="#3F8079" stroke-width="2"/>
+<line x1="989" y1="231" x2="1371" y2="231" stroke="#3F8079" stroke-width="1"/>
+<text x="989" y="265" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">监控查询 · 本次事故 10:02</text>
+<rect x="989" y="291" width="382" height="136" rx="10" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1009" y="329" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">Redis P99 = 0.8ms</text>
+<text x="1009" y="358" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">外部银行接口超时率 = 95%</text>
+<text x="989" y="473" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">现场实证；需保留查询口径</text>
+<text x="989" y="539" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">保持独立类型与元数据</text>
+<path d="M 260 570 L 260 620" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<path d="M 720 570 L 720 620" fill="none" stroke="#B0763A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#aB0763A)"/>
+<path d="M 1180 570 L 1180 620" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<rect x="45" y="630" width="890" height="126" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="667" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">用于提出与排序假设</text>
+<text x="70" y="703" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#24364B" font-weight="400" text-anchor="start">“可能是哪些原因？”“哪些历史经验值得回查？”</text>
+<text x="70" y="735" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">先验本身不能确认本次事故已经发生了同样的故障。</text>
+<rect x="965" y="630" width="430" height="126" rx="12" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="990" y="667" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700" text-anchor="start">用于检验本次事故</text>
+<text x="990" y="703" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">支持、削弱或排除候选假设</text>
+<text x="990" y="735" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">仍需明确来源、时间与实例范围</text>
+<path d="M 935 690 L 958 690" fill="none" stroke="#64748B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a64748B)"/>
+<rect x="45" y="836" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="872" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">历史经验与手册规律提供先验；本次根因必须由带来源与时间边界的现场证据支撑。</text>
+<text x="48" y="920" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">Observation 的证据身份不代表内容可信：其中仍可能夹带攻击文本，需接受独立的清洗与权限控制。</text>
+</svg>

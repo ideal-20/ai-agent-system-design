@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="950px" viewBox="0 0 1440 950" role="img" aria-labelledby="title desc">
+<title id="title">同一个排障任务，在三个阶段重建三份上下文</title><desc id="desc">阶段子目标改变时，证据组合、工具集合与输出契约随之调整</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="950" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">同一个排障任务，在三个阶段重建三份上下文</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">阶段子目标改变时，证据组合、工具集合与输出契约随之调整</text>
+<rect x="45" y="123" width="1350" height="60" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="161" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#24364B" font-weight="700" text-anchor="start">持续任务：定位 payment-gateway 的 HTTP 504 异常，并给出处置建议</text>
+<rect x="45" y="228" width="430" height="530" rx="14" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="69" y="266" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">异常定界与初步分诊</text>
+<rect x="67" y="194" width="90" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="112.0" y="216" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">t = 1</text>
+<text x="69" y="310" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="start">先建立怎样的故障画像？</text>
+<text x="69" y="350" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">当前上下文 C_t</text>
+<rect x="69" y="374" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="87" y="402" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="start">任务信号</text>
+<text x="87" y="430" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">504 rate = 8.1%</text>
+<rect x="69" y="468" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="87" y="496" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="start">证据视图</text>
+<text x="87" y="524" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">告警元信息 + 上下游拓扑</text>
+<rect x="69" y="562" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="87" y="590" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="start">工具集合</text>
+<text x="87" y="618" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">基础只读监控查询</text>
+<rect x="69" y="672" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="87" y="702" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="start">有选择地卸载 / 不加载</text>
+<text x="87" y="729" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">暂不载入：无关回滚手册</text>
+<rect x="505" y="228" width="430" height="530" rx="14" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="529" y="266" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#B0763A" font-weight="700" text-anchor="start">竞争性假设验证</text>
+<rect x="527" y="194" width="90" height="32" rx="8" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="572.0" y="216" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#B0763A" font-weight="700" text-anchor="middle">t = 3</text>
+<text x="529" y="310" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B0763A" font-weight="700" text-anchor="start">为何只有新实例线程池饱和？</text>
+<text x="529" y="350" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">当前上下文 C_t</text>
+<rect x="529" y="374" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.2"/>
+<text x="547" y="402" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B0763A" font-weight="700" text-anchor="start">当前状态</text>
+<text x="547" y="430" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">新实例异常；线程池 200/200</text>
+<rect x="529" y="468" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.2"/>
+<text x="547" y="496" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B0763A" font-weight="700" text-anchor="start">证据视图</text>
+<text x="547" y="524" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">版本 / 配置差异 + Span 对比</text>
+<rect x="529" y="562" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.2"/>
+<text x="547" y="590" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B0763A" font-weight="700" text-anchor="start">工具集合</text>
+<text x="547" y="618" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">差异查询 + 线程与链路诊断</text>
+<rect x="529" y="672" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="547" y="702" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="start">有选择地卸载 / 不加载</text>
+<text x="547" y="729" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">退出活跃视图：无关全量日志</text>
+<rect x="965" y="228" width="430" height="530" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="989" y="266" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700" text-anchor="start">根因收敛与报告生成</text>
+<rect x="987" y="194" width="90" height="32" rx="8" fill="#EAF4F2" stroke="#3F8079" stroke-width="1"/>
+<text x="1032.0" y="216" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="middle">t = 6</text>
+<text x="989" y="310" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#3F8079" font-weight="700" text-anchor="start">如何形成可审批的修复建议？</text>
+<text x="989" y="350" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">当前上下文 C_t</text>
+<rect x="989" y="374" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1007" y="402" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="start">已证实根因</text>
+<text x="1007" y="430" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">新实例缺少渠道 VIP 白名单</text>
+<rect x="989" y="468" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1007" y="496" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="start">证据视图</text>
+<text x="1007" y="524" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">完整因果链 + 来源索引</text>
+<rect x="989" y="562" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1007" y="590" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="start">输出契约</text>
+<text x="1007" y="618" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">结构化报告 + 待审批建议</text>
+<rect x="989" y="672" width="382" height="76" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="1007" y="702" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="start">有选择地卸载 / 不加载</text>
+<text x="1007" y="729" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">归档：已排除分支的原始报文</text>
+<path d="M 475 465 L 497 465" fill="none" stroke="#64748B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a64748B)"/>
+<path d="M 935 465 L 957 465" fill="none" stroke="#64748B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a64748B)"/>
+<line x1="260" y1="789" x2="1180" y2="789" stroke="#CBD5E1" stroke-width="2"/>
+<circle cx="260" cy="789" r="6" fill="#426B9A" stroke="#426B9A" stroke-width="1.5"/>
+<circle cx="720" cy="789" r="6" fill="#B0763A" stroke="#B0763A" stroke-width="1.5"/>
+<circle cx="1180" cy="789" r="6" fill="#3F8079" stroke="#3F8079" stroke-width="1.5"/>
+<text x="260" y="817" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="700" text-anchor="middle">分诊信息</text>
+<text x="720" y="817" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B0763A" font-weight="700" text-anchor="middle">区分竞争假设</text>
+<text x="1180" y="817" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="middle">支撑报告与审批</text>
+<rect x="45" y="846" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="882" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">C_t 是面向当前决策的动态投影：阶段推进时，重建输入视图并卸载失去价值的细节。</text>
+<text x="48" y="930" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">同一组系统信息可以生成不同上下文；阶段目标、授权动作与预算共同决定本轮选择。</text>
+</svg>

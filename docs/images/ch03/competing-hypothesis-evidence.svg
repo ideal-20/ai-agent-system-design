@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1070px" viewBox="0 0 1440 1070" role="img" aria-labelledby="title desc">
+<title id="title">竞争性假设：同时保留支持、削弱与尚未查明的证据</title><desc id="desc">候选解释必须接受对照；把未知写出来，避免选择器把单一路径越推越强</desc>
+<defs>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="1070" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">竞争性假设：同时保留支持、削弱与尚未查明的证据</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">候选解释必须接受对照；把未知写出来，避免选择器把单一路径越推越强</text>
+<rect x="60" y="125" width="262" height="32" rx="8" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="191.0" y="147" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">两条待验证的解释</text>
+<rect x="60" y="183" width="645" height="123" rx="12" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="80" y="217.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#426B9A" font-weight="700" text-anchor="start">H1  网络路由 / 出口访问异常</text>
+<text x="80" y="261.7" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">新扩容实例访问外部银行渠道失败</text>
+<rect x="735" y="183" width="645" height="123" rx="12" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="755" y="217.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#B0763A" font-weight="700" text-anchor="start">H2  新版本代码引入死锁</text>
+<text x="755" y="261.7" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">假设：只有异常实例升级了新代码</text>
+<rect x="60" y="371" width="645" height="143" rx="12" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.2"/>
+<text x="80" y="405.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">支持 H1 的线索</text>
+<text x="80" y="448.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">inst-09 / 10 的 BankChannelClient 读取超时</text>
+<text x="80" y="477.8" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">异常集中于新扩容实例；网络路径值得检查</text>
+<path d="M 380 360 L 380 316" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<text x="401" y="345" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#426B9A" font-weight="700" text-anchor="start">支持 · 尚未确证</text>
+<rect x="735" y="371" width="645" height="143" rx="12" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="755" y="405.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700" text-anchor="start">削弱 H2 的反向证据</text>
+<text x="755" y="448.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">异常 inst-09 与正常 inst-01 均运行 v2.4.0</text>
+<text x="755" y="477.8" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">“只有异常实例升级了代码”的前提不成立</text>
+<path d="M 1057 360 L 1057 316" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="1078" y="345" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700" text-anchor="start">检验假设的关键前提</text>
+<rect x="60" y="546" width="1320" height="126" rx="14" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="84" y="580" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#24364B" font-weight="700" text-anchor="start">正常对照也占证据仓</text>
+<rect x="84" y="606" width="565" height="32" rx="8" fill="#FFFFFF" stroke="#3F8079" stroke-width="1"/>
+<text x="366.5" y="628" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="middle">正常老实例：504 率 0.02% → 界定影响范围</text>
+<rect x="675" y="606" width="681" height="32" rx="8" fill="#FFFFFF" stroke="#3F8079" stroke-width="1"/>
+<text x="1015.5" y="628" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#3F8079" font-weight="700" text-anchor="middle">数据库：CPU 32%、连接 45/200 → 削弱数据库瓶颈解释</text>
+<rect x="60" y="705" width="645" height="216" rx="14" fill="#FBEDEC" stroke="#B9504A" stroke-width="1.2"/>
+<text x="84" y="743" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B9504A" font-weight="700" text-anchor="start">conflict_alert · 保留不一致的观测</text>
+<text x="84" y="780" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">网关超时率约 8%</text>
+<text x="84" y="812" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">下游监控成功率 100%</text>
+<text x="84" y="844" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">两条均保留，继续核对统计口径与链路覆盖。</text>
+<rect x="735" y="705" width="645" height="216" rx="14" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="759" y="743" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">missing_evidence · 显式列出未知</text>
+<text x="759" y="780" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">尚未取得 inst-09 的出口路由表</text>
+<text x="759" y="812" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">尚未核对下游白名单与请求是否到达</text>
+<text x="759" y="844" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">下一步：调用只读工具补齐有区分度的证据。</text>
+<rect x="45" y="966" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="70" y="1002" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">支持不等于确证；“没有拿到证据”不等于“证据证明没有”；反证需要针对明确前提。</text>
+<text x="48" y="1050" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">本图依据正文排障示例组织证据。镜像相同可削弱“仅异常实例部署新版本”，不能单独排除所有代码问题。</text>
+</svg>
