@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1020px" viewBox="0 0 1440 1020" role="img" aria-labelledby="title desc">
+<title id="title">混合召回：互补排名汇合，再交付完整证据</title><desc id="desc">沿同一查询观察候选 A、B、C 的流动；不合格资料 D 在硬条件过滤中被排除</desc>
+<defs>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="1020" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">混合召回：互补排名汇合，再交付完整证据</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">沿同一查询观察候选 A、B、C 的流动；不合格资料 D 在硬条件过滤中被排除</text>
+<text x="45" y="142" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="start">查询</text>
+<text x="110" y="142" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#24364B" font-weight="400" text-anchor="start">新扩容实例调用银行超时 · E-PAY-10243</text>
+<rect x="915" y="119" width="145" height="32" rx="6" fill="#F7F9FC" stroke="#64748B" stroke-width="1"/>
+<text x="987.5" y="141" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="middle">生产环境</text>
+<rect x="1073" y="119" width="145" height="32" rx="6" fill="#F7F9FC" stroke="#64748B" stroke-width="1"/>
+<text x="1145.5" y="141" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="middle">当前业务时间</text>
+<rect x="1231" y="119" width="164" height="32" rx="6" fill="#F7F9FC" stroke="#64748B" stroke-width="1"/>
+<text x="1313.0" y="141" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="middle">调用者权限</text>
+<path d="M45 173 L1395 173" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="45" y="220" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#426B9A" font-weight="700" text-anchor="start">BM25</text>
+<text x="366" y="220" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#3F8079" font-weight="700" text-anchor="start">向量检索</text>
+<text x="52" y="279" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#64748B" font-weight="400" text-anchor="start">1</text>
+<rect x="85" y="247" width="230" height="51" rx="2" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="104" y="280" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">C</text>
+<text x="147" y="280" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">错误码</text>
+<text x="52" y="345" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#64748B" font-weight="400" text-anchor="start">2</text>
+<rect x="85" y="313" width="230" height="51" rx="2" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="104" y="346" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">A</text>
+<text x="147" y="346" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">扩容检查</text>
+<text x="91" y="410" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B9504A" font-weight="400" text-anchor="start">D  测试环境旧版</text>
+<path d="M85 402 L297 402" fill="none" stroke="#B9504A" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="373" y="279" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#64748B" font-weight="400" text-anchor="start">1</text>
+<rect x="406" y="247" width="230" height="51" rx="2" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="425" y="280" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700" text-anchor="start">A</text>
+<text x="468" y="280" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">扩容检查</text>
+<text x="373" y="345" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#64748B" font-weight="400" text-anchor="start">2</text>
+<rect x="406" y="313" width="230" height="51" rx="2" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="425" y="346" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700" text-anchor="start">B</text>
+<text x="468" y="346" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">504 通用</text>
+<text x="412" y="410" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#B9504A" font-weight="400" text-anchor="start">D  测试环境旧版</text>
+<path d="M406 402 L618 402" fill="none" stroke="#B9504A" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M315 272 H335 V450 H695 V272 H752" fill="none" stroke="#426B9A" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<path d="M315 338 H346 V463 H713 V338 H752" fill="none" stroke="#426B9A" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<path d="M636 272 H665 V338 H752" fill="none" stroke="#3F8079" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<path d="M636 338 H651 V404 H752" fill="none" stroke="#3F8079" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="775" y="220" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#426B9A" font-weight="700" text-anchor="start">排名融合 · RRF 示例</text>
+<text x="775" y="280" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#24364B" font-weight="700" text-anchor="start">C</text>
+<rect x="815" y="256" width="116" height="33" rx="0" fill="#426B9A" stroke="#FFFFFF" stroke-width="1"/>
+<text x="944" y="280" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">单路贡献</text>
+<text x="775" y="346" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#24364B" font-weight="700" text-anchor="start">A</text>
+<rect x="815" y="322" width="110" height="33" rx="0" fill="#426B9A" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="925" y="322" width="116" height="33" rx="0" fill="#3F8079" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1054" y="346" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">两路贡献</text>
+<text x="775" y="412" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#24364B" font-weight="700" text-anchor="start">B</text>
+<rect x="815" y="388" width="110" height="33" rx="0" fill="#3F8079" stroke="#FFFFFF" stroke-width="1"/>
+<text x="938" y="412" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">单路贡献</text>
+<text x="775" y="459" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">分数来自名次贡献，不直接相加原始相似度。</text>
+<path d="M1085 365 L1150 365" fill="none" stroke="#426B9A" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<text x="1167" y="220" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">可选重排后</text>
+<rect x="1167" y="247" width="228" height="51" rx="2" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1184" y="280" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700" text-anchor="start">A</text>
+<text x="1227" y="280" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">扩容检查</text>
+<rect x="1167" y="313" width="228" height="51" rx="2" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="1184" y="346" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">C</text>
+<text x="1227" y="346" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">错误码</text>
+<rect x="1167" y="379" width="228" height="51" rx="2" fill="#F7F9FC" stroke="#64748B" stroke-width="1.2"/>
+<text x="1184" y="412" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#64748B" font-weight="700" text-anchor="start">B</text>
+<text x="1227" y="412" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">通用说明</text>
+<text x="1167" y="459" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="start">按完整问题比较</text>
+<path d="M45 506 L1395 506" fill="none" stroke="#CBD5E1" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="58" cy="545" r="13" fill="#B0763A"/>
+<text x="58" y="550" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">1</text>
+<text x="82" y="551" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">候选资格</text>
+<circle cx="484" cy="545" r="13" fill="#426B9A"/>
+<text x="484" y="550" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">2</text>
+<text x="508" y="551" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">内容完整性</text>
+<circle cx="972" cy="545" r="13" fill="#3F8079"/>
+<text x="972" y="550" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">3</text>
+<text x="996" y="551" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">本轮交付</text>
+<path d="M70 602 V784 M339 602 V784" fill="none" stroke="#B0763A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="205" y="621" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B0763A" font-weight="700" text-anchor="middle">授权 / 时间 / 环境</text>
+<path d="M90 669 L316 669" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="91" y="657" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="400" text-anchor="start">A  现行扩容手册</text>
+<path d="M90 714 L316 714" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<text x="91" y="702" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="400" text-anchor="start">C  错误码说明</text>
+<text x="91" y="774" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B9504A" font-weight="700" text-anchor="start">D  ×  不合格资料</text>
+<path d="M354 698 L410 698" fill="none" stroke="#64748B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a64748B)"/>
+<rect x="435" y="596" width="416" height="215" rx="2" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="454" y="631" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">A 的父级小节</text>
+<text x="454" y="665" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#B0763A" font-weight="400" text-anchor="start">前提：新实例接入流量前</text>
+<rect x="451" y="681" width="382" height="37" rx="1" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="463" y="707" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">动作：核对实际出口是否获授权</text>
+<text x="454" y="750" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="400" text-anchor="start">验证：连通性检查与变更记录</text>
+<text x="454" y="786" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">父级重新授权 · 同版本 · 去重</text>
+<path d="M862 698 L926 698" fill="none" stroke="#64748B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a64748B)"/>
+<text x="945" y="617" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#3F8079" font-weight="700" text-anchor="start">Context Compiler</text>
+<rect x="945" y="643" width="450" height="60" rx="0" fill="#EDF3F9" stroke="#FFFFFF" stroke-width="2"/>
+<rect x="945" y="643" width="8" height="60" rx="0" fill="#426B9A" stroke="#426B9A" stroke-width="1.2"/>
+<text x="969" y="679.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="start">完整规则 A</text>
+<rect x="945" y="703" width="450" height="42" rx="0" fill="#FBF1E4" stroke="#FFFFFF" stroke-width="2"/>
+<rect x="945" y="703" width="8" height="42" rx="0" fill="#B0763A" stroke="#B0763A" stroke-width="1.2"/>
+<text x="969" y="730.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B0763A" font-weight="700" text-anchor="start">错误码补充 C</text>
+<rect x="945" y="745" width="450" height="42" rx="0" fill="#F7F9FC" stroke="#FFFFFF" stroke-width="2"/>
+<rect x="945" y="745" width="8" height="42" rx="0" fill="#64748B" stroke="#64748B" stroke-width="1.2"/>
+<text x="969" y="772.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#64748B" font-weight="700" text-anchor="start">版本与来源引用</text>
+<path d="M945 803 V811 H1395 V803" fill="none" stroke="#3F8079" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1170.0" y="839" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="400" text-anchor="middle">预算内组织；不靠截断前提腾出空间</text>
+<rect x="45" y="910" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="946" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">召回看有没有找到；重排看是否靠前；交付看完整证据是否真正进入模型输入。</text>
+<text x="48" y="995" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">排名与条形长度仅示意 RRF 贡献关系，非实验结果；可选重排后的顺序也需由实际评测验证。</text>
+</svg>

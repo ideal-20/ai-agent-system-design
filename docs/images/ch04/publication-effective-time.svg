@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="850px" viewBox="0 0 1440 850" role="img" aria-labelledby="title desc">
+<title id="title">版本时间：发布在先，生效在后</title><desc id="desc">当前操作按当前业务时间检索；历史复盘按事故发生时间还原适用规则</desc>
+<defs>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="850" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">版本时间：发布在先，生效在后</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">当前操作按当前业务时间检索；历史复盘按事故发生时间还原适用规则</text>
+<path d="M100 259 L1360 259" fill="none" stroke="#64748B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a64748B)"/>
+<text x="180" y="169" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="middle">10 月 22 日</text>
+<text x="180" y="204" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="middle">历史事故发生</text>
+<circle cx="180" cy="259" r="5" fill="#426B9A"/>
+<path d="M180 269 L180 473" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 6"/>
+<text x="460" y="169" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="middle">10 月 25 日</text>
+<text x="460" y="204" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="middle">发布 v3.0</text>
+<circle cx="460" cy="259" r="5" fill="#426B9A"/>
+<path d="M460 269 L460 473" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 6"/>
+<text x="700" y="169" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="middle">10 月 28 日</text>
+<text x="700" y="204" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="middle">新版尚未生效</text>
+<circle cx="700" cy="259" r="5" fill="#426B9A"/>
+<path d="M700 269 L700 473" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 6"/>
+<text x="980" y="169" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="middle">11 月 1 日</text>
+<text x="980" y="204" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="middle">v3.0 开始生效</text>
+<circle cx="980" cy="259" r="5" fill="#426B9A"/>
+<path d="M980 269 L980 473" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 6"/>
+<text x="1260" y="169" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="middle">11 月 5 日</text>
+<text x="1260" y="204" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="middle">当前查询 / 复盘</text>
+<circle cx="1260" cy="259" r="5" fill="#426B9A"/>
+<path d="M1260 269 L1260 473" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 6"/>
+<text x="45" y="316" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">旧版</text>
+<rect x="100" y="290" width="880" height="61" rx="7" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="510" y="329" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="middle">5000ms · 生效至 11 月 1 日零点之前</text>
+<text x="45" y="414" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">v3.0</text>
+<rect x="460" y="388" width="520" height="61" rx="7" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
+<text x="720" y="427" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#B0763A" font-weight="700" text-anchor="middle">已发布，尚未生效</text>
+<rect x="980" y="388" width="380" height="61" rx="7" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
+<text x="1170" y="427" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#3F8079" font-weight="700" text-anchor="middle">3000ms · 已生效</text>
+<circle cx="980" cy="320" r="5" fill="#FFFFFF" stroke="#426B9A" stroke-width="1.5"/>
+<circle cx="980" cy="419" r="5" fill="#3F8079"/>
+<text x="980" y="494" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="middle">同一时刻：旧区间结束，新区间开始</text>
+<path d="M45 545 L695 545" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="45" y="583" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#3F8079" font-weight="700" text-anchor="start">11 月 5 日 · 当前排障</text>
+<text x="45" y="627" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#24364B" font-weight="400" text-anchor="start">as_of = 11 月 5 日</text>
+<text x="45" y="665" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="24" fill="#3F8079" font-weight="700" text-anchor="start">适用 v3.0：3000ms</text>
+<path d="M745 545 L1395 545" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="745" y="583" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#426B9A" font-weight="700" text-anchor="start">11 月 5 日 · 复盘 10 月事故</text>
+<text x="745" y="627" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#24364B" font-weight="400" text-anchor="start">as_of = 10 月 22 日</text>
+<text x="745" y="665" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="24" fill="#426B9A" font-weight="700" text-anchor="start">还原旧版：5000ms</text>
+<rect x="45" y="740" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="776" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">选择规则看 effective_from / effective_to；published_at 仅说明资料何时发布。</text>
+<text x="48" y="825" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">示意采用 [effective_from, effective_to) 区间；ingested_at 另行记录，帮助识别索引同步延迟。</text>
+</svg>

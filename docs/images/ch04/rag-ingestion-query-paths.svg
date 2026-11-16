@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="980px" viewBox="0 0 1440 980" role="img" aria-labelledby="title desc">
+<title id="title">文档 RAG：先构建可追溯索引，再组装本轮证据</title><desc id="desc">入库路径随资料版本更新，在线路径随问题执行；两条路径共享已发布索引</desc>
+<defs>
+<marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
+<marker id="a3F8079" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#3F8079"/></marker>
+<marker id="aB0763A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B0763A"/></marker>
+<marker id="aB9504A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#B9504A"/></marker>
+<marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
+</defs>
+<rect x="0" y="0" width="1440" height="980" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">文档 RAG：先构建可追溯索引，再组装本轮证据</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">入库路径随资料版本更新，在线路径随问题执行；两条路径共享已发布索引</text>
+<circle cx="58" cy="139" r="13" fill="#426B9A"/>
+<text x="58" y="144" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">1</text>
+<text x="82" y="145" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">入库发布</text>
+<path d="M65 190 H254 L280 216 V435 H65 Z" fill="none" stroke="#426B9A" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M254 190 V216 H280" fill="none" stroke="#426B9A" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="83" y="225" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">原始手册</text>
+<path d="M83 253 L255 253" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M83 276 L239 276" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M83 299 L223 299" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M83 322 L255 322" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M83 345 L239 345" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="83" y="383" width="174" height="32" rx="6" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="170.0" y="405" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">v2.4 · PRODUCTION</text>
+<text x="172" y="466" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="middle">正文 + 元数据</text>
+<path d="M289 310 L358 310" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<text x="324" y="284" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="middle">解析</text>
+<text x="380" y="209" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">结构切片</text>
+<rect x="380" y="233" width="245" height="43" rx="3" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>
+<text x="399" y="261" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#426B9A" font-weight="700" text-anchor="start">扩容与变更 / 渠道访问</text>
+<path d="M398 276 V408" fill="none" stroke="#426B9A" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M398 310 L420 310" fill="none" stroke="#426B9A" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="420" y="292" width="205" height="37" rx="2" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<path d="M433 305 L603 305" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M433 316 L580 316" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M398 363 L420 363" fill="none" stroke="#426B9A" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="420" y="345" width="205" height="37" rx="2" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<path d="M433 358 L603 358" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M433 369 L580 369" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M398 416 L420 416" fill="none" stroke="#426B9A" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="420" y="398" width="205" height="37" rx="2" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<path d="M433 411 L603 411" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M433 422 L580 422" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="500" y="466" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="middle">短子片段 ↔ 父级小节</text>
+<path d="M635 310 H692 V244 H738" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<path d="M692 310 V399 H738" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="760" y="186" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">全文索引</text>
+<rect x="755" y="209" width="270" height="104" rx="2" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="772" y="235" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#426B9A" font-weight="700" text-anchor="start">扩容</text>
+<text x="873" y="235" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">[ c₁, c₃ ]</text>
+<path d="M850 220 L850 240" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="772" y="266" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#426B9A" font-weight="700" text-anchor="start">渠道</text>
+<text x="873" y="266" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">[ c₁, c₂ ]</text>
+<path d="M850 251 L850 271" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="772" y="297" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#426B9A" font-weight="700" text-anchor="start">授权</text>
+<text x="873" y="297" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">[ c₂, c₃ ]</text>
+<path d="M850 282 L850 302" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="760" y="356" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">向量索引</text>
+<text x="760" y="390" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">c1</text>
+<rect x="797" y="370" width="24" height="25" rx="1" fill="#EAF4F2" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="824" y="370" width="24" height="25" rx="1" fill="#84B5AE" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="851" y="370" width="24" height="25" rx="1" fill="#EAF4F2" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="878" y="370" width="24" height="25" rx="1" fill="#84B5AE" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="905" y="370" width="24" height="25" rx="1" fill="#EAF4F2" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="932" y="370" width="24" height="25" rx="1" fill="#84B5AE" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="959" y="370" width="24" height="25" rx="1" fill="#EAF4F2" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="986" y="370" width="24" height="25" rx="1" fill="#84B5AE" stroke="#FFFFFF" stroke-width="0.5"/>
+<text x="760" y="421" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">c2</text>
+<rect x="797" y="401" width="24" height="25" rx="1" fill="#C6DEDA" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="824" y="401" width="24" height="25" rx="1" fill="#3F8079" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="851" y="401" width="24" height="25" rx="1" fill="#C6DEDA" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="878" y="401" width="24" height="25" rx="1" fill="#3F8079" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="905" y="401" width="24" height="25" rx="1" fill="#C6DEDA" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="932" y="401" width="24" height="25" rx="1" fill="#3F8079" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="959" y="401" width="24" height="25" rx="1" fill="#C6DEDA" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="986" y="401" width="24" height="25" rx="1" fill="#3F8079" stroke="#FFFFFF" stroke-width="0.5"/>
+<text x="760" y="452" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">c3</text>
+<rect x="797" y="432" width="24" height="25" rx="1" fill="#84B5AE" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="824" y="432" width="24" height="25" rx="1" fill="#EAF4F2" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="851" y="432" width="24" height="25" rx="1" fill="#84B5AE" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="878" y="432" width="24" height="25" rx="1" fill="#EAF4F2" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="905" y="432" width="24" height="25" rx="1" fill="#84B5AE" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="932" y="432" width="24" height="25" rx="1" fill="#EAF4F2" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="959" y="432" width="24" height="25" rx="1" fill="#84B5AE" stroke="#FFFFFF" stroke-width="0.5"/>
+<rect x="986" y="432" width="24" height="25" rx="1" fill="#EAF4F2" stroke="#FFFFFF" stroke-width="0.5"/>
+<path d="M1040 260 H1082 V337 H1122" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<path d="M1040 411 H1082 V337" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1135" y="228" width="255" height="213" rx="3" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="1160" y="265" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="21" fill="#426B9A" font-weight="700" text-anchor="start">发布版本 Iᵥ</text>
+<text x="1160" y="303" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="400" text-anchor="start">✓ 查询回归</text>
+<text x="1160" y="336" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="400" text-anchor="start">✓ 权限样例</text>
+<path d="M1157 357 L1368 357" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1160" y="389" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">online → Iᵥ</text>
+<text x="1160" y="418" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">保留旧版本以供回滚</text>
+<path d="M45 516 L1395 516" fill="none" stroke="#CBD5E1" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 6"/>
+<circle cx="58" cy="557" r="13" fill="#3F8079"/>
+<text x="58" y="562" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">2</text>
+<text x="82" y="563" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">在线查询</text>
+<text x="60" y="618" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#3F8079" font-weight="700" text-anchor="start">问题 + 已确认条件</text>
+<rect x="60" y="641" width="89" height="32" rx="6" fill="#F7F9FC" stroke="#64748B" stroke-width="1"/>
+<text x="104.5" y="663" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="middle">身份</text>
+<rect x="159" y="641" width="112" height="32" rx="6" fill="#F7F9FC" stroke="#64748B" stroke-width="1"/>
+<text x="215.0" y="663" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="middle">生产环境</text>
+<rect x="281" y="641" width="100" height="32" rx="6" fill="#F7F9FC" stroke="#64748B" stroke-width="1"/>
+<text x="331.0" y="663" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="700" text-anchor="middle">业务时间</text>
+<text x="61" y="710" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#24364B" font-weight="400" text-anchor="start">“扩容前需要检查什么？”</text>
+<path d="M390 683 H456" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<circle cx="511" cy="671" r="37" fill="#FFFFFF"/>
+<circle cx="511" cy="671" r="37" fill="none" stroke="#3F8079" stroke-width="2.4"/>
+<path d="M537 697 L563 723" fill="none" stroke="#3F8079" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="512" y="678" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="middle">检索</text>
+<text x="510" y="765" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748B" font-weight="400" text-anchor="middle">授权 · 召回 · 排序</text>
+<path d="M1262 441 V550 H589 V635 H552" fill="none" stroke="#426B9A" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
+<text x="793" y="540" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#426B9A" font-weight="400" text-anchor="middle">读取已发布版本</text>
+<path d="M575 683 L645 683" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<path d="M663 589 H937 L963 615 V808 H663 Z" fill="none" stroke="#3F8079" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M937 589 V615 H963" fill="none" stroke="#3F8079" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="681" y="624" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">本轮证据</text>
+<rect x="683" y="626" width="258" height="33" rx="1" fill="#F7F9FC" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="697" y="647" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">问题</text>
+<rect x="683" y="660" width="258" height="33" rx="1" fill="#EDF3F9" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="697" y="681" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#426B9A" font-weight="400" text-anchor="start">完整规则 + 必要前提</text>
+<rect x="683" y="694" width="258" height="33" rx="1" fill="#EAF4F2" stroke="#FFFFFF" stroke-width="1.2"/>
+<text x="697" y="715" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="400" text-anchor="start">版本 / 来源 / 原文位置</text>
+<text x="683" y="774" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">Context Compiler 按预算交付</text>
+<path d="M974 683 L1036 683" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
+<text x="1071" y="620" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="23" fill="#426B9A" font-weight="700" text-anchor="start">Model → 回答</text>
+<path d="M1071 656 L1351 656" fill="none" stroke="#CBD5E1" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1071 682 L1319 682" fill="none" stroke="#CBD5E1" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1071 708 L1341 708" fill="none" stroke="#CBD5E1" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1071" y="737" width="140" height="32" rx="6" fill="#EDF3F9" stroke="#426B9A" stroke-width="1"/>
+<text x="1141.0" y="759" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">引用 §2.3</text>
+<rect x="1221" y="737" width="160" height="32" rx="6" fill="#FBF1E4" stroke="#B0763A" stroke-width="1"/>
+<text x="1301.0" y="759" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#B0763A" font-weight="700" text-anchor="middle">证据不足则说明</text>
+<rect x="45" y="870" width="1350" height="58" rx="12" fill="#F7F9FC" stroke="#CBD5E1" stroke-width="1.2"/>
+<text x="70" y="906" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#426B9A" font-weight="700" text-anchor="start">入库产生可查询的资料版本；在线检索把合格片段与出处编译成模型本轮输入。</text>
+<text x="48" y="955" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">全文与向量是同一来源的派生索引；RAG 不会直接更新模型参数，当前配置仍应查询权威接口。</text>
+</svg>
