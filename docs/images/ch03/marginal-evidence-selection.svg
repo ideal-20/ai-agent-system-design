@@ -38,11 +38,11 @@
 <text x="85" y="301" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">相似度 0.92～0.95 · 关键词高度重合</text>
 <rect x="884" y="180" width="238" height="143" rx="12" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
 <text x="904" y="214.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#3F8079" font-weight="700" text-anchor="start">d11 · 扩容记录</text>
-<text x="904" y="256.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">17:59 扩容上线</text>
+<text x="904" y="256.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">18:00 扩容完成</text>
 <text x="904" y="282.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">inst-09 / inst-10</text>
 <text x="904" y="308.7" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">相似度 0.68</text>
 <rect x="1140" y="180" width="235" height="143" rx="12" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
-<text x="1160" y="214.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">d12 · DB 正常</text>
+<text x="1160" y="214.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#B0763A" font-weight="700" text-anchor="start">d12 · DB 指标</text>
 <text x="1160" y="256.0" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">CPU：32%</text>
 <text x="1160" y="282.35" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">连接：45/200</text>
 <text x="1160" y="308.7" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">相似度 0.61</text>
@@ -72,7 +72,7 @@
 <rect x="564" y="588" width="105" height="52" rx="9" fill="#FFFFFF" stroke="#B9504A" stroke-width="1.2"/>
 <text x="616.5" y="621" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#B9504A" font-weight="700" text-anchor="middle">d10 · 504</text>
 <line x1="84" y1="678" x2="681" y2="678" stroke="#B9504A" stroke-width="1"/>
-<text x="84" y="717" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B9504A" font-weight="700" text-anchor="start">d11 扩容记录、d12 正常指标被淘汰</text>
+<text x="84" y="717" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#B9504A" font-weight="700" text-anchor="start">d11 扩容记录、d12 资源指标被淘汰</text>
 <text x="84" y="755" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">“还有更多超时报错”并没有回答：</text>
 <text x="84" y="784" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">为何只有这些实例异常？哪些分支可以削弱？</text>
 <rect x="735" y="420" width="645" height="402" rx="14" fill="#EAF4F2" stroke="#3F8079" stroke-width="1.2"/>
@@ -88,7 +88,7 @@
 <rect x="759" y="651" width="597" height="66" rx="9" fill="#FFFFFF" stroke="#B0763A" stroke-width="1.2"/>
 <rect x="775" y="668" width="147" height="32" rx="8" fill="#FFFFFF" stroke="#B0763A" stroke-width="1"/>
 <text x="848.5" y="690" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#B0763A" font-weight="700" text-anchor="middle">d12</text>
-<text x="940" y="692" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">正常对照：数据库暂无瓶颈迹象</text>
+<text x="940" y="692" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">正常对照：CPU 与连接数未见高水位</text>
 <text x="759" y="765" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#3F8079" font-weight="700" text-anchor="start">d2～d10 聚合去重，避免重复占用证据预算</text>
 <text x="65" y="872" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#64748B" font-weight="400" text-anchor="start">选择下一条时综合评估：</text>
 <rect x="309" y="849" width="185" height="32" rx="8" fill="#F7F9FC" stroke="#426B9A" stroke-width="1"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="950px" viewBox="0 0 1440 950" role="img" aria-labelledby="title desc">
-<title id="title">History 记录发生过什么，State 维护当前确认了什么</title><desc id="desc">每轮工具执行后，由 Runtime 校验并合并事件，生成无冲突的当前状态快照</desc>
+<title id="title">History 记录发生过什么，State 维护当前确认了什么</title><desc id="desc">每轮工具执行后，由 Runtime 校验并合并事件，生成带版本与证据引用的当前状态快照</desc>
 <defs>
 <marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
 <marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
@@ -10,7 +10,7 @@
 </defs>
 <rect x="0" y="0" width="1440" height="950" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
 <text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">History 记录发生过什么，State 维护当前确认了什么</text>
-<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">每轮工具执行后，由 Runtime 校验并合并事件，生成无冲突的当前状态快照</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">每轮工具执行后，由 Runtime 校验并合并事件，生成带版本与证据引用的当前状态快照</text>
 <rect x="45" y="125" width="450" height="615" rx="14" fill="#F7F9FC" stroke="#426B9A" stroke-width="1.2"/>
 <text x="69" y="163" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#426B9A" font-weight="700" text-anchor="start">History · 按序追加的事件轨迹</text>
 <line x1="86" y1="218" x2="86" y2="640" stroke="#426B9A" stroke-width="2"/>
@@ -29,7 +29,7 @@
 <circle cx="86" cy="492" r="7" fill="#3F8079" stroke="#3F8079" stroke-width="1.5"/>
 <rect x="109" y="469" width="361" height="70" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
 <text x="127" y="496" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#3F8079" font-weight="700" text-anchor="start">R2 · 修正判断</text>
-<text x="127" y="523" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">排除该下游延迟假设</text>
+<text x="127" y="523" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">削弱该下游延迟假设</text>
 <circle cx="86" cy="580" r="7" fill="#426B9A" stroke="#426B9A" stroke-width="1.5"/>
 <rect x="109" y="557" width="361" height="70" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
 <text x="127" y="584" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="16" fill="#426B9A" font-weight="700" text-anchor="start">R3 · 工具观测</text>
@@ -42,7 +42,7 @@
 <text x="560" y="390" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="start">验证状态跃迁</text>
 <text x="560" y="418" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">检查来源与阶段规则</text>
 <text x="560" y="465" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="19" fill="#426B9A" font-weight="700" text-anchor="start">合并当前状态</text>
-<text x="560" y="493" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">按时间更新，消除冲突</text>
+<text x="560" y="493" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="400" text-anchor="start">按时间更新，记录冲突</text>
 <path d="M 495 405 L 527 405" fill="none" stroke="#426B9A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a426B9A)"/>
 <path d="M 835 405 L 870 405" fill="none" stroke="#3F8079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#a3F8079)"/>
 <rect x="535" y="607" width="300" height="108" rx="10" fill="#FBF1E4" stroke="#B0763A" stroke-width="1.2"/>
@@ -54,7 +54,7 @@
 <text x="925" y="235" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#3F8079" font-weight="700" text-anchor="start">已确认事实</text>
 <text x="925" y="265" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">线程池 200/200，已饱和</text>
 <rect x="905" y="305" width="465" height="106" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
-<text x="925" y="333" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="700" text-anchor="start">已排除假设</text>
+<text x="925" y="333" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#64748B" font-weight="700" text-anchor="start">已削弱假设</text>
 <text x="925" y="363" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">inventory-service 延迟导致阻塞</text>
 <text x="925" y="388" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="17" fill="#24364B" font-weight="400" text-anchor="start">依据：R2 P99 = 15ms</text>
 <rect x="905" y="426" width="465" height="106" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>

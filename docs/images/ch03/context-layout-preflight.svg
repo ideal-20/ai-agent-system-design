@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1440px" height="1000px" viewBox="0 0 1440 1000" role="img" aria-labelledby="title desc">
-<title id="title">结构化组装：把关键约束放稳，再通过发送前门禁</title><desc id="desc">上下文逻辑布局与四项确定性断言共同保证每轮输入完整、可用</desc>
+<title id="title">结构化组装：把关键约束放稳，再通过发送前门禁</title><desc id="desc">上下文逻辑布局与发送前预检示意；预检通过不等于业务结论正确</desc>
 <defs>
 <marker id="a64748B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748B"/></marker>
 <marker id="a426B9A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#426B9A"/></marker>
@@ -10,7 +10,7 @@
 </defs>
 <rect x="0" y="0" width="1440" height="1000" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.2"/>
 <text x="40" y="54" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="30" fill="#24364B" font-weight="700" text-anchor="start">结构化组装：把关键约束放稳，再通过发送前门禁</text>
-<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">上下文逻辑布局与四项确定性断言共同保证每轮输入完整、可用</text>
+<text x="40" y="86" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">上下文逻辑布局与发送前预检示意；预检通过不等于业务结论正确</text>
 <text x="65" y="143" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#426B9A" font-weight="700" text-anchor="start">编排好的候选 C_t</text>
 <text x="876" y="143" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#3F8079" font-weight="700" text-anchor="start">注入前预检</text>
 <rect x="60" y="167" width="710" height="165" rx="14" fill="#EDF3F9" stroke="#426B9A" stroke-width="1.2"/>

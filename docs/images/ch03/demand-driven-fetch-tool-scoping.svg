@@ -44,7 +44,7 @@
 <text x="1130" y="394.25" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#24364B" font-weight="400" text-anchor="start">保留报错点与上下文</text>
 <rect x="1132" y="427" width="226" height="32" rx="8" fill="#FFFFFF" stroke="#426B9A" stroke-width="1"/>
 <text x="1245.0" y="449" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="15" fill="#426B9A" font-weight="700" text-anchor="middle">读取相关明细</text>
-<text x="70" y="508" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#64748B" font-weight="400" text-anchor="start">每轮只向下一层索取所需材料；正常实例的日志不进入本轮候选池。</text>
+<text x="70" y="508" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="18" fill="#64748B" font-weight="400" text-anchor="start">按需读取各层材料；当前不相关的正常实例日志暂不进入候选池。</text>
 <text x="60" y="569" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="22" fill="#24364B" font-weight="700" text-anchor="start">② 工具空间：从平台能力中挂载当前阶段的子集</text>
 <rect x="60" y="598" width="380" height="207" rx="14" fill="#F7F9FC" stroke="#64748B" stroke-width="1.2"/>
 <text x="84" y="636" font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="20" fill="#64748B" font-weight="700" text-anchor="start">工具仓库 · 120 个工具</text>
