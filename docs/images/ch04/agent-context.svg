@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="726" viewBox="0 0 1120 726" role="img" aria-labelledby="title desc">
+  <title id="title">Agent 系统中的信息来源与上下文构建</title>
+  <desc id="desc">跨任务的 Knowledge 和 Memory，以及当前任务的 Observation 和 Task State，经过 Context Compiler 筛选组织，构成本轮模型输入，再交给包含 Model Parameters 的 Model。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0 0 8 4 0 8Z" fill="#85919F"/>
+    </marker>
+    <style>
+      text { font-family: Arial, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif; }
+      .section { font-size: 20px; font-weight: 500; fill: #56616D; }
+      .heading { font-size: 23px; font-weight: 700; fill: #28323C; }
+      .body { font-size: 18px; fill: #59636E; }
+      .wire { fill: none; stroke: #85919F; stroke-width: 1.4; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect width="1120" height="726" fill="#FFFFFF"/>
+
+  <!-- Information sources -->
+  <g id="cross-task-information">
+    <rect x="31" y="40" width="524" height="213" rx="10" fill="#FBFCFD" stroke="#A8B3C0" stroke-width="1.2" stroke-dasharray="8 7"/>
+    <text class="section" x="293" y="74" text-anchor="middle">跨任务信息</text>
+    <g id="knowledge">
+      <rect x="52" y="98" width="232" height="124" rx="7" fill="#EAF0F6" stroke="#8CA0B9" stroke-width="1.4"/>
+      <text class="heading" x="168" y="145" text-anchor="middle" fill="#28323C" style="fill:#28323C">Knowledge</text>
+      <text class="body" x="168" y="183" text-anchor="middle">外部领域知识</text>
+    </g>
+    <g id="memory">
+      <rect x="303" y="98" width="232" height="124" rx="7" fill="#F0EEF4" stroke="#A29AB2" stroke-width="1.4"/>
+      <text class="heading" x="419" y="145" text-anchor="middle" style="fill:#28323C">Memory</text>
+      <text class="body" x="419" y="183" text-anchor="middle">历史经验与偏好</text>
+    </g>
+  </g>
+
+  <g id="current-task-information">
+    <rect x="581" y="40" width="524" height="213" rx="10" fill="#FBFCFC" stroke="#A2B6B1" stroke-width="1.2" stroke-dasharray="8 7"/>
+    <text class="section" x="843" y="74" text-anchor="middle">当前任务信息</text>
+    <g id="observation">
+      <rect x="602" y="98" width="232" height="124" rx="7" fill="#EAF2F0" stroke="#8EAFA7" stroke-width="1.4"/>
+      <text class="heading" x="718" y="145" text-anchor="middle" style="fill:#28323C">Observation</text>
+      <text class="body" x="718" y="183" text-anchor="middle">外部环境状态</text>
+    </g>
+    <g id="task-state">
+      <rect x="853" y="98" width="232" height="124" rx="7" fill="#EDF1F3" stroke="#99ACB7" stroke-width="1.4"/>
+      <text class="heading" x="969" y="145" text-anchor="middle" style="fill:#28323C">Task State</text>
+      <text class="body" x="969" y="183" text-anchor="middle">当前执行进展</text>
+    </g>
+  </g>
+
+  <!-- Shared input bus -->
+  <g id="connections" class="wire">
+    <path d="M168 222V282H969V222 M419 222V282 M718 222V282"/>
+    <path d="M568 282V312" marker-end="url(#arrow)"/>
+    <path d="M568 417V451" marker-end="url(#arrow)"/>
+    <path d="M568 521V555" marker-end="url(#arrow)"/>
+  </g>
+
+  <g id="context-compiler">
+    <rect x="211" y="318" width="714" height="99" rx="8" fill="#F1F3F6" stroke="#91A0AF" stroke-width="1.4"/>
+    <text class="heading" x="568" y="356" text-anchor="middle" style="fill:#28323C">Context Compiler</text>
+    <text class="body" x="568" y="388" text-anchor="middle">信息筛选 · 来源标记 · 预算分配 · 上下文组织</text>
+  </g>
+
+  <g id="context-input">
+    <rect x="309" y="457" width="518" height="64" rx="7" fill="#E8EFF6" stroke="#758EAB" stroke-width="1.4"/>
+    <text x="568" y="497" text-anchor="middle" font-size="21" font-weight="700" fill="#28323C">Context · 本轮模型输入</text>
+  </g>
+
+  <g id="model">
+    <rect x="211" y="561" width="714" height="99" rx="8" fill="#F8F9FA" stroke="#A7B0BB" stroke-width="1.4"/>
+    <text class="heading" x="371" y="617" text-anchor="middle">Model</text>
+    <g id="model-parameters">
+      <rect x="504" y="577" width="400" height="66" rx="6" fill="#EFEDF4" stroke="#AAA1BA" stroke-width="1.2"/>
+      <text x="704" y="605" text-anchor="middle" font-size="20" font-weight="700" fill="#3B3745">Model Parameters</text>
+      <text x="704" y="630" text-anchor="middle" font-size="17" fill="#65616E">训练所得的知识先验与能力</text>
+    </g>
+  </g>
+
+  <text x="568" y="709" text-anchor="middle" font-size="20" fill="#85919F">图 4-1 Agent 系统中的信息来源与上下文构建</text>
+</svg>
