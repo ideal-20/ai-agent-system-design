@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1538" height="690" viewBox="62 46 1538 690" role="img" aria-labelledby="title">
+<title id="title">支付网关扩容手册 v2.4：文档结构与父子切片</title>
+<style>text{font-family:Arial,'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#0d0d0d;font-size:30px} .bold{font-weight:600}.tree{fill:none;stroke:#94a3b8;stroke-width:3;stroke-linejoin:round}.label{font-size:26px}</style>
+<rect x="63.5" y="48" width="1534.5" height="687" rx="24" fill="#fcfcfc" stroke="#e2e2e2" stroke-width="2"/>
+<g fill="none" stroke="#606060" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M101 86 H111 L118 93 V107 Q118 112 113 112 H101 Q96 112 96 107 V91 Q96 86 101 86Z"/><path d="M102 96 H112 M102 102 H108"/></g>
+<text x="141" y="111" style="font-size:32px;font-weight:600">支付网关扩容手册 v2.4</text>
+<rect x="237" y="332" width="1299" height="232" rx="12" fill="#f1f3f5" stroke="#97b0c8" stroke-width="2.3" stroke-dasharray="9 7"/>
+<rect x="316.5" y="453" width="811" height="53" rx="7" fill="#dce6e6"/>
+<path class="tree" d="M130.5 144 V664 H177 M130.5 174.5 H177 M130.5 237 H177 M200.5 267.5 V597 H246.5 M200.5 299.5 H246.5 M200.5 362 H246.5 M270 392.5 V534 H316 M270 425 H316 M270 483 H316"/>
+<text x="193" y="184">1. 系统架构与服务依赖</text>
+<text x="193" y="247">2. 扩容与变更</text>
+<text x="263" y="309">2.1 扩容条件</text>
+<text x="263" y="372" class="bold">2.2 扩容前检查</text>
+<text x="333" y="434">2.2.1 实例资源检查</text>
+<text x="333" y="492" class="bold">2.2.2 渠道访问检查</text>
+<text x="333" y="543">2.2.3 配置一致性检查</text>
+<text x="263" y="606">2.3 扩容执行与验证</text>
+<text x="193" y="673">3. 故障处理与回滚</text>
+<text x="1498" y="372" text-anchor="end" class="label" style="fill:#527da5">父级小节</text>
+<text x="1101" y="491" text-anchor="end" class="label" style="fill:#39877a">子切片</text>
+</svg>
