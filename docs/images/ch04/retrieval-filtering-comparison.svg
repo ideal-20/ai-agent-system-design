@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="840" viewBox="0 0 1560 840" role="img" aria-labelledby="title"><title id="title">候选搜索前后的过滤机制对有效召回范围的影响</title><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#8493a8" stroke-width="1.3"/></marker></defs><rect width="1560" height="840" fill="#fff"/><rect x="12" y="10" width="1536" height="820" rx="32" fill="#fafafa" stroke="#dedede" stroke-width="2"/><g font-family="Inter, PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#151515" font-size="28">
+<text x="38" y="73" font-size="32" font-weight="700" text-anchor="start" fill="#151515">Post-filtering：先召回，后过滤</text>
+<text x="68" y="130" font-size="28" font-weight="400" text-anchor="start" fill="#151515">全库搜索 Top-8</text>
+<rect x="68" y="158" width="98" height="81" rx="11" fill="#edf0f2" stroke="#95a6bc" stroke-width="2.5"/>
+<text x="117" y="208" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">1</text>
+<rect x="189" y="158" width="98" height="81" rx="11" fill="#edf0f2" stroke="#95a6bc" stroke-width="2.5"/>
+<text x="238" y="208" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">2</text>
+<rect x="310" y="158" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="359" y="208" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">3</text>
+<rect x="431" y="158" width="98" height="81" rx="11" fill="#edf0f2" stroke="#95a6bc" stroke-width="2.5"/>
+<text x="480" y="208" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">4</text>
+<rect x="552" y="158" width="98" height="81" rx="11" fill="#edf0f2" stroke="#95a6bc" stroke-width="2.5"/>
+<text x="601" y="208" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">5</text>
+<rect x="673" y="158" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="722" y="208" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">6</text>
+<rect x="794" y="158" width="98" height="81" rx="11" fill="#edf0f2" stroke="#95a6bc" stroke-width="2.5"/>
+<text x="843" y="208" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">7</text>
+<rect x="915" y="158" width="98" height="81" rx="11" fill="#edf0f2" stroke="#95a6bc" stroke-width="2.5"/>
+<text x="964" y="208" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">8</text>
+<path d="M1046 198 H1158" stroke="#8493a8" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="1194" y="158" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="1243" y="208" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">3</text>
+<rect x="1315" y="158" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="1364" y="208" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">6</text>
+<text x="68" y="295" font-size="28" font-weight="400" text-anchor="start" fill="#151515">不符合条件的文档占据了候选窗口</text>
+<text x="1194" y="295" font-size="28" font-weight="500" text-anchor="start" fill="#519486">仅剩 2 条</text>
+<rect x="68" y="337" width="25" height="25" rx="5" fill="#cdd5df"/><rect x="310" y="337" width="25" height="25" rx="5" fill="#9abfb6"/>
+<text x="108" y="360" font-size="25" font-weight="400" text-anchor="start" fill="#151515">无效文档</text>
+<text x="350" y="360" font-size="25" font-weight="400" text-anchor="start" fill="#151515">符合准入条件</text>
+<path d="M38 418 H1522" stroke="#e3e5e7" stroke-width="1.5"/>
+<text x="38" y="497" font-size="32" font-weight="700" text-anchor="start" fill="#151515">Filtered Retrieval：在约束范围内检索</text>
+<rect x="68" y="557" width="307" height="94" rx="11" fill="#e9eef5" stroke="#5682b2" stroke-width="2.5"/>
+<text x="221.5" y="593" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">元数据约束</text>
+<text x="221.5" y="627" font-size="25" font-weight="400" text-anchor="middle" fill="#151515">环境 · 权限 · 版本</text>
+<path d="M375 603 H464" stroke="#8493a8" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="498" y="562" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="547" y="612" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">1</text>
+<rect x="619" y="562" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="668" y="612" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">2</text>
+<rect x="740" y="562" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="789" y="612" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">3</text>
+<rect x="861" y="562" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="910" y="612" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">4</text>
+<rect x="982" y="562" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="1031" y="612" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">5</text>
+<rect x="1103" y="562" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="1152" y="612" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">6</text>
+<rect x="1224" y="562" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="1273" y="612" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">7</text>
+<rect x="1345" y="562" width="98" height="81" rx="11" fill="#d7e5e1" stroke="#519486" stroke-width="2.5"/>
+<text x="1394" y="612" font-size="28" font-weight="500" text-anchor="middle" fill="#151515">8</text>
+<text x="498" y="697" font-size="28" font-weight="400" text-anchor="start" fill="#151515">在符合条件的知识范围内获取 Top-8</text>
+<text x="780" y="798" font-size="26" font-weight="400" text-anchor="middle" fill="#666666">图：候选搜索前后的过滤机制对有效召回范围的影响</text>
+</g></svg>
