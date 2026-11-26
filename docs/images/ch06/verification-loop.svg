@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="335" viewBox="0 0 1120 335"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8 Z" fill="#64748b"/></marker></defs><rect width="100%" height="100%" fill="#fff" rx="8"/>
+<text x="560.0" y="34" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#172b45">Verification Loop：执行与验收闭环</text>
+<text x="560.0" y="57" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#64748b">以真实结果推进任务，而非仅凭模型的完成声明</text>
+<rect x="30" y="100" width="230" height="75" rx="8" fill="#f5f7fa" stroke="#a7b4c2" stroke-width="1.2"/>
+<text x="145.0" y="129.5" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#475569">Task &amp; Criteria</text>
+<text x="145.0" y="152.5" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">目标与验收条件</text>
+<rect x="290" y="100" width="230" height="75" rx="8" fill="#edf4fc" stroke="#7593b7" stroke-width="1.2"/>
+<text x="405.0" y="129.5" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#294e77">Agent Execution</text>
+<text x="405.0" y="152.5" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">模型决策 · 工具动作</text>
+<rect x="550" y="100" width="230" height="75" rx="8" fill="#edf7f3" stroke="#78a796" stroke-width="1.2"/>
+<text x="665.0" y="129.5" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#286b57">Verification</text>
+<text x="665.0" y="152.5" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">测试 · 指标 · 证据</text>
+<rect x="835" y="100" width="230" height="75" rx="8" fill="#f5f7fa" stroke="#a7b4c2" stroke-width="1.2"/>
+<text x="950.0" y="129.5" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#475569">Delivery</text>
+<text x="950.0" y="152.5" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">制品与验收结论</text>
+<path d="M260 137 L290 137" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M520 137 L550 137" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M780 137 L835 137" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="807" y="125" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#64748b">通过</text>
+<rect x="550" y="240" width="230" height="65" rx="8" fill="#fff7e9" stroke="#c5a16a" stroke-width="1.2"/>
+<text x="665.0" y="264.5" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#8a6327">Actionable Feedback</text>
+<text x="665.0" y="287.5" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">失败项 · 证据 · 修正目标</text>
+<path d="M665 175 L665 240" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="710" y="213" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#64748b">未通过</text>
+<path d="M550 272 L405 272 L405 175" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="478" y="259" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#64748b">继续执行</text>
+<text x="170" y="270" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#64748b">预算 / 无进展 / 人工控制</text>
+</svg>

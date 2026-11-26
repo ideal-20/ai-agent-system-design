@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="360" viewBox="0 0 1120 360"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8 Z" fill="#64748b"/></marker></defs><rect width="100%" height="100%" fill="#fff" rx="8"/>
+<text x="560.0" y="34" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#172b45">执行事实与模型输入：不同的信息生命周期</text>
+<text x="560.0" y="57" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#64748b">Context 是当前决策视图，不是全部执行状态</text>
+<rect x="25" y="85" width="245" height="68" rx="8" fill="#f5f7fa" stroke="#a7b4c2" stroke-width="1.2"/>
+<text x="147.5" y="111.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#475569">Session History</text>
+<text x="147.5" y="134.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">交互与工具事件</text>
+<path d="M147 153 L147 184 L560 184 L560 210" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="300" y="85" width="245" height="68" rx="8" fill="#f5f7fa" stroke="#a7b4c2" stroke-width="1.2"/>
+<text x="422.5" y="111.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#475569">Execution State</text>
+<text x="422.5" y="134.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">目标 · 阶段 · 验收</text>
+<path d="M422 153 L422 184 L560 184 L560 210" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="575" y="85" width="245" height="68" rx="8" fill="#f5f7fa" stroke="#a7b4c2" stroke-width="1.2"/>
+<text x="697.5" y="111.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#475569">Workspace</text>
+<text x="697.5" y="134.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">代码 · 文件 · 制品</text>
+<path d="M697 153 L697 184 L560 184 L560 210" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="850" y="85" width="245" height="68" rx="8" fill="#f5f7fa" stroke="#a7b4c2" stroke-width="1.2"/>
+<text x="972.5" y="111.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#475569">External State</text>
+<text x="972.5" y="134.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">远端操作 · 业务事实</text>
+<path d="M972 153 L972 184 L560 184 L560 210" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="360" y="210" width="400" height="58" rx="8" fill="#edf4fc" stroke="#7593b7" stroke-width="1.2"/>
+<text x="560.0" y="231.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#294e77">Context Manager</text>
+<text x="560.0" y="254.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">选材 · 压缩 · 组织 · 关联证据</text>
+<rect x="430" y="294" width="260" height="48" rx="8" fill="#edf7f3" stroke="#78a796" stroke-width="1.2"/>
+<text x="560.0" y="323.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#286b57">Model Context</text>
+<path d="M560 268 L560 294" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+</svg>

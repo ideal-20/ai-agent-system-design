@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="350" viewBox="0 0 1120 350"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8 Z" fill="#64748b"/></marker></defs><rect width="100%" height="100%" fill="#fff" rx="8"/>
+<text x="560.0" y="34" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#172b45">外部操作的恢复边界</text>
+<text x="560.0" y="57" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#64748b">原操作身份贯穿发送、结果查询与恢复</text>
+<rect x="25" y="95" width="245" height="76" rx="8" fill="#edf4fc" stroke="#7593b7" stroke-width="1.2"/>
+<text x="147.5" y="125.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#294e77">登记 CHG-11</text>
+<text x="147.5" y="148.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">稳定操作身份</text>
+<rect x="300" y="95" width="245" height="76" rx="8" fill="#edf4fc" stroke="#7593b7" stroke-width="1.2"/>
+<text x="422.5" y="125.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#294e77">发起变更</text>
+<text x="422.5" y="148.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">远端可能已执行</text>
+<rect x="575" y="95" width="245" height="76" rx="8" fill="#fff7e9" stroke="#c5a16a" stroke-width="1.2"/>
+<text x="697.5" y="125.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#8a6327">结果未知</text>
+<text x="697.5" y="148.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">响应丢失 / Worker 退出</text>
+<rect x="850" y="95" width="245" height="76" rx="8" fill="#edf7f3" stroke="#78a796" stroke-width="1.2"/>
+<text x="972.5" y="125.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#286b57">恢复与查询</text>
+<text x="972.5" y="148.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">按原操作 ID 确认</text>
+<path d="M270 133 L300 133" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M545 133 L575 133" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M820 133 L850 133" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="850" y="235" width="245" height="70" rx="8" fill="#edf7f3" stroke="#78a796" stroke-width="1.2"/>
+<text x="972.5" y="262.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#286b57">确认远端事实</text>
+<text x="972.5" y="285.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">v18 包含 E11</text>
+<path d="M972 171 L972 235" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="575" y="235" width="245" height="70" rx="8" fill="#f5f7fa" stroke="#a7b4c2" stroke-width="1.2"/>
+<text x="697.5" y="262.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" fill="#475569">继续业务验收</text>
+<text x="697.5" y="285.0" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#526477">504 尚未满足恢复标准</text>
+<path d="M850 270 L820 270" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="300" y="270" text-anchor="middle" font-family="Inter, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="600" fill="#8a6327">不得根据超时直接创建新变更</text>
+</svg>
